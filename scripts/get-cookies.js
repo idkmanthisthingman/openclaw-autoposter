@@ -13,7 +13,15 @@ if (!username || !password) {
   process.exit(1);
 }
 
-const scraper = new Scraper();
+// X blocks Node.js's default User-Agent — inject a browser UA on all requests.
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+function fetchWithUA(url, init = {}) {
+  const headers = new Headers(init.headers ?? {});
+  if (!headers.has('User-Agent')) headers.set('User-Agent', UA);
+  return fetch(url, { ...init, headers });
+}
+
+const scraper = new Scraper({ fetch: fetchWithUA });
 console.log(`Logging in as @${username}...`);
 await scraper.login(username, password, email);
 

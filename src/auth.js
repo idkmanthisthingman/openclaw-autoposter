@@ -52,8 +52,16 @@ export async function saveCookies(scraper) {
   console.log('Cookies saved.');
 }
 
+// X blocks Node.js's default User-Agent — wrap fetch to inject a browser UA.
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+function fetchWithUA(url, init = {}) {
+  const headers = new Headers(init.headers ?? {});
+  if (!headers.has('User-Agent')) headers.set('User-Agent', BROWSER_UA);
+  return fetch(url, { ...init, headers });
+}
+
 export async function createAuthenticatedScraper() {
-  const scraper = new Scraper();
+  const scraper = new Scraper({ fetch: fetchWithUA });
   const restored = await loadCookies(scraper);
   if (!restored) {
     const username = process.env.X_USERNAME;
