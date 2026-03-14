@@ -64,7 +64,7 @@ async function main() {
   // Post with 30-45 min gaps between tweets
   for (let i = 0; i < posts.length; i++) {
     const post = posts[i];
-    const includeImage = Math.random() < 0.6; // 60% of posts get images per v4.1
+    const includeImage = Math.random() < 0.8; // 80% of posts get images
 
     try {
       const tweetId = await postTweet(scraper, post, includeImage);
