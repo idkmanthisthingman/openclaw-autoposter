@@ -1,36 +1,22 @@
 import { readFileSync, existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
-import { fetchImageForPost } from './images.js';
+import { browserSendTweet, closeBrowser } from './browser-post.js';
 import { loadState, saveState, recordPostedTweetId } from './state.js';
-import { sleep, randomJitter, createAuthenticatedScraper, saveCookies } from './auth.js';
+import { sleep, randomJitter } from './auth.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DRY_RUN = process.env.DRY_RUN === '1';
 
-async function postTweet(scraper, post, includeImage) {
-  let mediaData;
-
-  if (includeImage) {
-    const image = await fetchImageForPost(post);
-    if (image) {
-      mediaData = [{ data: image.buffer, mediaType: image.mimeType }];
-    }
-  }
-
+async function postTweet(post) {
   if (DRY_RUN) {
     console.log(`[DRY RUN] Would post: "${post.text}"`);
-    if (mediaData) console.log(`[DRY RUN] With image attached.`);
     return;
   }
 
-  const result = await scraper.sendTweet(post.text, undefined, mediaData);
-  const tweetId =
-    result?.id_str ||
-    result?.data?.create_tweet?.tweet_results?.result?.rest_id ||
-    null;
-  console.log(`Posted: "${post.text.slice(0, 80)}..." ${mediaData ? '(with image)' : '(text-only)'}${tweetId ? ` [id:${tweetId}]` : ''}`);
+  const tweetId = await browserSendTweet(post.text);
+  console.log(`Posted: "${post.text.slice(0, 80)}..." ${tweetId ? `[id:${tweetId}]` : ''}`);
   return tweetId;
 }
 
@@ -63,41 +49,41 @@ async function main() {
   console.log(`Posting ${posts.length} tweet(s) from ${batchArg} batch${indexArg !== null ? ` (index ${indexArg})` : ''}.`);
 
   if (DRY_RUN) {
-    console.log('=== DRY RUN MODE ===');
     for (const post of posts) {
-      await postTweet(null, post, false);
+      await postTweet(post);
     }
     console.log('=== DRY RUN COMPLETE ===');
     return;
   }
 
-  const scraper = await createAuthenticatedScraper();
   const state = loadState();
 
-  for (let i = 0; i < posts.length; i++) {
-    const post = posts[i];
-    const includeImage = Math.random() < 0.8; // 80% of posts get images
+  try {
+    for (let i = 0; i < posts.length; i++) {
+      const post = posts[i];
 
-    try {
-      const tweetId = await postTweet(scraper, post, includeImage);
-      if (tweetId) {
-        recordPostedTweetId(state, tweetId, post);
-        saveState(state);
+      try {
+        const tweetId = await postTweet(post);
+        if (tweetId) {
+          recordPostedTweetId(state, tweetId, post);
+          saveState(state);
+        }
+      } catch (err) {
+        console.error(`Failed to post: ${err.message}`);
+        continue;
       }
-    } catch (err) {
-      console.error(`Failed to post: ${err.message}`);
-      continue;
-    }
 
-    // Sleep only when posting all tweets in one run (no --index), skip after last
-    if (indexArg === null && i < posts.length - 1) {
-      const waitMs = randomJitter(30 * 60 * 1000, 15 * 60 * 1000); // 30-45 min
-      console.log(`Waiting ${Math.round(waitMs / 60000)} minutes before next post...`);
-      await sleep(waitMs);
+      // Sleep only when posting all tweets in one run (no --index), skip after last
+      if (indexArg === null && i < posts.length - 1) {
+        const waitMs = randomJitter(30 * 60 * 1000, 15 * 60 * 1000); // 30-45 min
+        console.log(`Waiting ${Math.round(waitMs / 60000)} minutes before next post...`);
+        await sleep(waitMs);
+      }
     }
+  } finally {
+    await closeBrowser();
   }
 
-  await saveCookies(scraper);
   console.log('Done.');
 }
 

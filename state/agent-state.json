@@ -262,7 +262,27 @@
     "signature_phrases": [],
     "audience_response_patterns": []
   },
-  "posted_tweets": [],
+  "posted_tweets": [
+    {
+      "tweet_id": "2032826318598136018",
+      "text": "You're not lazy, you're just not consistent. Discipline is what separates those who reach their goals from those who don't. Been there, still working on it after 2 months off gym.",
+      "tone": "tough-love",
+      "format": "micro-lesson",
+      "pillar": [
+        "discipline",
+        "gym"
+      ],
+      "trigger": "identity_threat",
+      "posted_at": "2026-03-14T14:28:57.404Z",
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "views": 0,
+        "last_fetched_at": null
+      }
+    }
+  ],
   "engagement": {
     "followed_users": [],
     "liked_tweet_ids": [],

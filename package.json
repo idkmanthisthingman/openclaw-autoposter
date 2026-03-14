@@ -1,8 +1,8 @@
 {
-  "name": "openclaw-autoposter",
+  "name": "node-sched-utils",
   "version": "1.0.0",
   "type": "module",
-  "description": "OpenClaw v4.1 autonomous social growth agent — posts to X via GitHub Actions",
+  "description": "",
   "scripts": {
     "generate": "node src/generate.js",
     "post": "node src/post.js",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "agent-twitter-client": "^0.0.18",
-    "groq-sdk": "^1.1.1"
+    "groq-sdk": "^1.1.1",
+    "playwright": "^1.58.2"
   }
 }

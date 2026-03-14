@@ -20,6 +20,9 @@ jobs:
 
       - run: npm ci
 
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+
       - name: Restore cookies
         run: |
           if [ -n "$COOKIES_JSON" ]; then
@@ -47,8 +50,8 @@ jobs:
 
       - name: Commit state
         run: |
-          git config user.name "openclaw-bot"
-          git config user.email "bot@openclaw.local"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state/agent-state.json
           git diff --cached --quiet || git commit -m "Update state after afternoon tweet 2"
           git push
