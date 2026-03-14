@@ -54,7 +54,7 @@ function loadCookies() {
     path: c.path || '/',
     secure: c.secure !== false,
     httpOnly: c.httpOnly || false,
-    sameSite: (c.sameSite || 'None'),
+    sameSite: ['Strict', 'Lax', 'None'].includes(c.sameSite) ? c.sameSite : 'None',
   }));
 }
 
