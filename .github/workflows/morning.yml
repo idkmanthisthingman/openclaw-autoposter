@@ -43,6 +43,7 @@ jobs:
           X_USERNAME: ${{ secrets.X_USERNAME }}
           X_PASSWORD: ${{ secrets.X_PASSWORD }}
           X_EMAIL: ${{ secrets.X_EMAIL }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
 
       - name: Engage with niche
         run: node src/engage.js

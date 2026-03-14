@@ -1,4 +1,5 @@
 const WIKIMEDIA_API = 'https://commons.wikimedia.org/w/api.php';
+const UNSPLASH_API = 'https://api.unsplash.com';
 
 // Pillar → concrete visual search queries (from v4.1 Section 17C)
 const PILLAR_VISUALS = {
@@ -22,6 +23,37 @@ function getSearchQuery(pillars) {
     }
   }
   return 'person determined focused real photo';
+}
+
+async function searchUnsplash(query) {
+  const accessKey = process.env.UNSPLASH_ACCESS_KEY;
+  if (!accessKey) return null;
+
+  const params = new URLSearchParams({ query, per_page: 5, orientation: 'landscape' });
+  const res = await fetch(`${UNSPLASH_API}/search/photos?${params}`, {
+    headers: { Authorization: `Client-ID ${accessKey}` },
+  });
+  if (!res.ok) return null;
+
+  const data = await res.json();
+  const result = data.results?.[0];
+  if (!result) return null;
+
+  // Trigger download ping as required by Unsplash API guidelines
+  fetch(`${result.links.download_location}?client_id=${accessKey}`).catch(() => {});
+
+  // Download the "regular" size (1080px wide)
+  const imgRes = await fetch(result.urls.regular);
+  if (!imgRes.ok) return null;
+
+  const buffer = Buffer.from(await imgRes.arrayBuffer());
+  return {
+    buffer,
+    mimeType: 'image/jpeg',
+    attribution: result.user?.name || 'Unsplash',
+    url: result.urls.regular,
+    searchQuery: query,
+  };
 }
 
 async function searchWikimedia(query) {
@@ -88,15 +120,28 @@ export async function fetchImageForPost(post) {
   const query = getSearchQuery(post.pillar || []);
   console.log(`  Image search: "${query}"`);
 
+  // Try Unsplash first (higher quality, more relevant)
+  if (process.env.UNSPLASH_ACCESS_KEY) {
+    try {
+      const unsplashResult = await searchUnsplash(query);
+      if (unsplashResult) {
+        console.log(`  Found Unsplash image by ${unsplashResult.attribution}`);
+        return unsplashResult;
+      }
+    } catch (err) {
+      console.log(`  Unsplash failed (${err.message}), falling back to Wikimedia.`);
+    }
+  }
+
+  // Fallback: Wikimedia Commons
   const candidates = await searchWikimedia(query);
   if (candidates.length === 0) {
     console.log('  No suitable images found, posting text-only.');
     return null;
   }
 
-  // Pick the first viable candidate
   const picked = candidates[0];
-  console.log(`  Found: ${picked.title} (${picked.width}x${picked.height})`);
+  console.log(`  Found Wikimedia: ${picked.title} (${picked.width}x${picked.height})`);
 
   const buffer = await downloadImage(picked.url);
   if (!buffer) {
