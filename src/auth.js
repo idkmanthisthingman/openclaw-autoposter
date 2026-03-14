@@ -25,7 +25,8 @@ async function loadCookies(scraper) {
     const cookieStrings = [];
     for (const c of cookies) {
       const name = c.key || c.name;
-      const domains = ['.x.com', '.twitter.com'];
+      // agent-twitter-client uses twitter.com internally for all requests
+      const domains = ['.twitter.com'];
       for (const domain of domains) {
         let s = `${name}=${c.value}; Domain=${domain}; Path=${c.path || '/'}`;
         if (c.secure)   s += `; Secure`;
