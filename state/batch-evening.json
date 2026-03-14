@@ -1,0 +1,64 @@
+[
+  {
+    "text": "Worst part of getting back to the gym? It's not the pain, it's the sacrifice of my mornings. Woke up at 5:30, still trying to fix my sleep schedule. #gym",
+    "tone": "reflective",
+    "format": "micro-story",
+    "pillar": [
+      "sacrifice",
+      "pain"
+    ],
+    "psychological_trigger": "pattern_interrupt",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "struggling with consistency",
+      "desire": "visible physical progress"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [
+      "gym"
+    ],
+    "quality_score": 8.2,
+    "quality_breakdown": {
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.7,
+      "audience_fit": 0.9
+    },
+    "decision_reason": "relatable storyline"
+  },
+  {
+    "text": "You're not alone in this struggle. I see people posting their gym progress, but nobody talks about the days they don't want to show up. That's the real sacrifice. Keep going, even when it hurts.",
+    "tone": "empathetic",
+    "format": "progress-log",
+    "pillar": [
+      "sacrifice",
+      "dreams"
+    ],
+    "psychological_trigger": "social_proof_inverse",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "feeling stuck",
+      "desire": "being someone people notice changed"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [],
+    "quality_score": 8.5,
+    "quality_breakdown": {
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.9
+    },
+    "decision_reason": "authenticity"
+  }
+]
