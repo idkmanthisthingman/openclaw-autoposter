@@ -1,6 +1,6 @@
 [
   {
-    "text": "You're not lazy, you're just not consistent. Discipline is what separates those who reach their goals from those who don't. Been there, still working on it after 2 months off gym.",
+    "text": "You think you're too old to start over? Newsflash: discipline isn't about age, it's about choice. I'm 2 weeks back at the gym after 2 months off and it's a struggle.",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -23,16 +23,16 @@
     ],
     "quality_score": 8.2,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.8,
-      "virality_potential": 0.7,
-      "audience_fit": 0.9
+      "clarity": 8,
+      "originality": 7.5,
+      "emotional_impact": 8.5,
+      "virality_potential": 8,
+      "audience_fit": 8.5
     },
-    "decision_reason": "Directly addresses a common excuse and connects to the author's personal struggle."
+    "decision_reason": "Directly addresses the pain point of feeling stuck and challenges the reader's identity"
   },
   {
-    "text": "First day back at the gym was tough, but the worst part was knowing I had to do it again tomorrow. And the next day. That's where discipline kicks in. Still trying to get back into my routine.",
+    "text": "My morning routine isn't perfect, but it's mine. Woke up at 5:30, hated it, and still went to the gym. Building discipline one rep at a time, even when it feels like a sacrifice.",
     "tone": "motivational",
     "format": "micro-story",
     "pillar": [
@@ -42,40 +42,8 @@
     "psychological_trigger": "relatability_gap",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "lack of consistency",
+      "pain_point": "inconsistent routine",
       "desire": "purposeful daily routine"
-    },
-    "goal_alignment": {
-      "stage": "cold",
-      "objective": "follower_growth"
-    },
-    "arc_phase": "beginning",
-    "hashtags": [
-      "fitnessjourney"
-    ],
-    "quality_score": 8.5,
-    "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.9
-    },
-    "decision_reason": "Narrates a personal struggle and emphasizes the importance of discipline in consistency."
-  },
-  {
-    "text": "Discipline is not about achieving perfection, it's about progressing despite imperfection. Every rep, every set, every sweat drop counts.",
-    "tone": "empathetic",
-    "format": "quote-style",
-    "pillar": [
-      "discipline",
-      "gym"
-    ],
-    "psychological_trigger": "reframe",
-    "hook_template_id": null,
-    "audience_fit": {
-      "pain_point": "feeling stuck watching others advance",
-      "desire": "proof discipline pays off"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -85,12 +53,44 @@
     "hashtags": [],
     "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.7,
-      "emotional_impact": 0.8,
-      "virality_potential": 0.7,
-      "audience_fit": 0.9
+      "clarity": 8,
+      "originality": 7,
+      "emotional_impact": 8,
+      "virality_potential": 8,
+      "audience_fit": 8.5
     },
-    "decision_reason": "Offers a supportive perspective on discipline, focusing on progress rather than perfection."
+    "decision_reason": "Shares a personal, relatable story to help readers feel less alone in their struggles"
+  },
+  {
+    "text": "Discipline is not about the gym, it's about who you become when you show up. Every rep, every sweat drop, every morning.",
+    "tone": "empathetic",
+    "format": "quote-style",
+    "pillar": [
+      "discipline",
+      "gym"
+    ],
+    "psychological_trigger": "reframe",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "lack of motivation",
+      "desire": "being someone people notice changed"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [
+      "discipline"
+    ],
+    "quality_score": 8.5,
+    "quality_breakdown": {
+      "clarity": 8.5,
+      "originality": 8,
+      "emotional_impact": 8.5,
+      "virality_potential": 8.5,
+      "audience_fit": 8.5
+    },
+    "decision_reason": "Reframes the reader's perspective on discipline and its impact on personal growth"
   }
 ]
