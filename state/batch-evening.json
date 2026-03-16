@@ -1,6 +1,6 @@
 [
   {
-    "text": "I used to think discipline was about being perfect. Then I woke up at 5:30, hated it, and still went to the gym. Now I'm learning to embrace the sacrifice and pain for my dreams.",
+    "text": "Day 7 back at the gym. Still waking up at 5:30am, still hating it. But the pain is becoming familiar, a reminder I'm working towards my dreams. Sacrifice isn't easy, but it's necessary.",
     "tone": "reflective",
     "format": "micro-story",
     "pillar": [
@@ -20,18 +20,18 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.2,
+    "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 0.8,
-      "originality": 0.7,
+      "clarity": 0.9,
+      "originality": 0.8,
       "emotional_impact": 0.9,
       "virality_potential": 0.8,
       "audience_fit": 0.9
     },
-    "decision_reason": "Meets requirements and is different from recent posts"
+    "decision_reason": "Meets all requirements and has a high quality score."
   },
   {
-    "text": "You're not alone in struggling to get back on track. I see people posting their gym progress, but most of them don't show the days they don't want to show up. That's the real sacrifice.",
+    "text": "I see people posting their fitness journeys, but most don't show the struggle. I'm guilty of that too. Truth is, every day is a battle. But showing up, even when you don't want to, is what builds discipline. You're not alone in this.",
     "tone": "empathetic",
     "format": "progress-log",
     "pillar": [
@@ -42,8 +42,8 @@
     "psychological_trigger": "social_proof_inverse",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "comparing to others",
-      "desire": "belonging to a group that gets it"
+      "pain_point": "feeling stuck",
+      "desire": "being someone people notice changed"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -51,14 +51,14 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8,
+    "quality_score": 8.2,
     "quality_breakdown": {
       "clarity": 0.9,
-      "originality": 0.6,
+      "originality": 0.7,
       "emotional_impact": 0.8,
-      "virality_potential": 0.7,
-      "audience_fit": 0.8
+      "virality_potential": 0.8,
+      "audience_fit": 0.9
     },
-    "decision_reason": "Meets requirements and references an open storyline"
+    "decision_reason": "Meets all requirements and has a high quality score."
   }
 ]

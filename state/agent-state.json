@@ -376,16 +376,34 @@
         ],
         "trigger": "stakes_escalation",
         "posted_at": "2026-03-16T10:40:09.177Z"
+      },
+      {
+        "text": "Day 7 back at the gym. Still waking up at 5:30am, still hating it. But the pain is becoming familiar, a reminder I'm working towards my dreams. Sacrifice isn't easy, but it's necessary.",
+        "tone": "reflective",
+        "format": "micro-story",
+        "pillar": [
+          "sacrifice",
+          "pain",
+          "dreams"
+        ],
+        "trigger": "pattern_interrupt",
+        "posted_at": "2026-03-16T16:46:34.724Z"
+      },
+      {
+        "text": "I see people posting their fitness journeys, but most don't show the struggle. I'm guilty of that too. Truth is, every day is a battle. But showing up, even when you don't want to, is what builds discipline. You're not alone in this.",
+        "tone": "empathetic",
+        "format": "progress-log",
+        "pillar": [
+          "sacrifice",
+          "pain",
+          "dreams"
+        ],
+        "trigger": "social_proof_inverse",
+        "posted_at": "2026-03-16T16:46:34.724Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
       "motivation",
       "consistency",
       "life",
@@ -409,11 +427,15 @@
       "life",
       "consistency",
       "motivation",
-      "life"
+      "life",
+      "sacrifice",
+      "pain",
+      "dreams",
+      "sacrifice",
+      "pain",
+      "dreams"
     ],
     "recent_triggers_used": [
-      "relatability_gap",
-      "reframe",
       "pattern_interrupt",
       "social_proof_inverse",
       "pattern_interrupt",
@@ -431,22 +453,24 @@
       "reframe",
       "permission_slip",
       "specificity_shock",
-      "stakes_escalation"
+      "stakes_escalation",
+      "pattern_interrupt",
+      "social_proof_inverse"
     ],
     "tone_distribution_7d": {
       "tough-love": 6,
       "motivational": 9,
-      "empathetic": 9,
+      "empathetic": 10,
       "casual": 3,
-      "reflective": 6
+      "reflective": 7
     },
     "format_distribution_7d": {
       "micro-lesson": 9,
-      "micro-story": 9,
+      "micro-story": 10,
       "quote-style": 6,
       "question": 3,
       "list": 3,
-      "progress-log": 3
+      "progress-log": 4
     }
   },
   "performance": {
@@ -457,7 +481,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-16T10:40:06.963Z"
+    "last_analyzed_at": "2026-03-16T16:46:30.885Z"
   },
   "content_library": {
     "proven_hooks": [],
