@@ -1,6 +1,6 @@
 [
   {
-    "text": "You think you're too old to start over? Newsflash: discipline isn't about age, it's about choice. I'm 2 weeks back at the gym after 2 months off and it's a struggle.",
+    "text": "Woke up at 5:30, hated it. But showed up to the gym anyway. That's what discipline looks like when you're trying to get back on track after 2 months off. Still struggling, but every rep counts.",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -18,22 +18,20 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [
-      "discipline"
-    ],
-    "quality_score": 8.2,
+    "hashtags": [],
+    "quality_score": 7.8,
     "quality_breakdown": {
-      "clarity": 8,
-      "originality": 7.5,
-      "emotional_impact": 8.5,
-      "virality_potential": 8,
-      "audience_fit": 8.5
+      "clarity": 0.9,
+      "originality": 0.7,
+      "emotional_impact": 0.8,
+      "virality_potential": 0.7,
+      "audience_fit": 0.8
     },
-    "decision_reason": "Directly addresses the pain point of feeling stuck and challenges the reader's identity"
+    "decision_reason": "Starting with a relatable, tough-love post to grab attention"
   },
   {
-    "text": "My morning routine isn't perfect, but it's mine. Woke up at 5:30, hated it, and still went to the gym. Building discipline one rep at a time, even when it feels like a sacrifice.",
-    "tone": "motivational",
+    "text": "I see people posting their fitness journeys, but most of them don't show the days they don't want to show up. I'm guilty of that too. But the truth is, every day is a struggle. And every day is a chance to build discipline.",
+    "tone": "empathetic",
     "format": "micro-story",
     "pillar": [
       "discipline",
@@ -42,8 +40,8 @@
     "psychological_trigger": "relatability_gap",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "inconsistent routine",
-      "desire": "purposeful daily routine"
+      "pain_point": "comparison spirals",
+      "desire": "being someone people notice changed"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -51,19 +49,19 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8,
+    "quality_score": 8.1,
     "quality_breakdown": {
-      "clarity": 8,
-      "originality": 7,
-      "emotional_impact": 8,
-      "virality_potential": 8,
-      "audience_fit": 8.5
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.8
     },
-    "decision_reason": "Shares a personal, relatable story to help readers feel less alone in their struggles"
+    "decision_reason": "Sharing a personal, empathetic story to create connection"
   },
   {
-    "text": "Discipline is not about the gym, it's about who you become when you show up. Every rep, every sweat drop, every morning.",
-    "tone": "empathetic",
+    "text": "Discipline isn't about being perfect, it's about being consistent. Every rep, every set, every sweat drop. It's about who you become when you show up, not just at the gym, but in life.",
+    "tone": "motivational",
     "format": "quote-style",
     "pillar": [
       "discipline",
@@ -72,25 +70,23 @@
     "psychological_trigger": "reframe",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "lack of motivation",
-      "desire": "being someone people notice changed"
+      "pain_point": "inconsistency",
+      "desire": "purposeful daily routine"
     },
     "goal_alignment": {
       "stage": "cold",
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [
-      "discipline"
-    ],
-    "quality_score": 8.5,
+    "hashtags": [],
+    "quality_score": 8.3,
     "quality_breakdown": {
-      "clarity": 8.5,
-      "originality": 8,
-      "emotional_impact": 8.5,
-      "virality_potential": 8.5,
-      "audience_fit": 8.5
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.9
     },
-    "decision_reason": "Reframes the reader's perspective on discipline and its impact on personal growth"
+    "decision_reason": "Ending with a motivational, quote-style post to inspire action"
   }
 ]
