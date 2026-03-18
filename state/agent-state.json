@@ -523,16 +523,43 @@
         ],
         "trigger": "reframe",
         "posted_at": "2026-03-18T05:43:30.552Z"
+      },
+      {
+        "text": "You have permission to start small and be inconsistent at first. Consistency is built over time, not overnight. I'm on day 7 of getting back to the gym and it's still a struggle",
+        "tone": "motivational",
+        "format": "micro-lesson",
+        "pillar": [
+          "motivation",
+          "consistency"
+        ],
+        "trigger": "permission_slip",
+        "posted_at": "2026-03-18T10:36:23.969Z"
+      },
+      {
+        "text": "What's one thing you can do daily to build consistency? For me, it's drinking 17 ounces of water before my 5:30am gym session",
+        "tone": "casual",
+        "format": "question",
+        "pillar": [
+          "consistency",
+          "life"
+        ],
+        "trigger": "specificity_shock",
+        "posted_at": "2026-03-18T10:36:23.970Z"
+      },
+      {
+        "text": "3 things I've learned in the past week: every rep counts, inaction has real consequences, and consistency is key. The stakes are high, but so are my dreams",
+        "tone": "reflective",
+        "format": "list",
+        "pillar": [
+          "motivation",
+          "life"
+        ],
+        "trigger": "stakes_escalation",
+        "posted_at": "2026-03-18T10:36:23.970Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "sacrifice",
-      "pain",
-      "dreams",
-      "sacrifice",
-      "pain",
-      "dreams",
       "discipline",
       "gym",
       "discipline",
@@ -556,12 +583,15 @@
       "discipline",
       "gym",
       "discipline",
-      "gym"
+      "gym",
+      "motivation",
+      "consistency",
+      "consistency",
+      "life",
+      "motivation",
+      "life"
     ],
     "recent_triggers_used": [
-      "social_proof_inverse",
-      "identity_threat",
-      "relatability_gap",
       "reframe",
       "permission_slip",
       "specificity_shock",
@@ -578,21 +608,24 @@
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
-      "reframe"
+      "reframe",
+      "permission_slip",
+      "specificity_shock",
+      "stakes_escalation"
     ],
     "tone_distribution_7d": {
       "tough-love": 8,
-      "motivational": 12,
+      "motivational": 13,
       "empathetic": 13,
-      "casual": 4,
-      "reflective": 9
+      "casual": 5,
+      "reflective": 10
     },
     "format_distribution_7d": {
-      "micro-lesson": 12,
+      "micro-lesson": 13,
       "micro-story": 13,
       "quote-style": 8,
-      "question": 4,
-      "list": 4,
+      "question": 5,
+      "list": 5,
       "progress-log": 5
     }
   },
@@ -604,7 +637,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-18T05:43:28.296Z"
+    "last_analyzed_at": "2026-03-18T10:36:21.709Z"
   },
   "content_library": {
     "proven_hooks": [],

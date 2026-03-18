@@ -1,6 +1,6 @@
 [
   {
-    "text": "You're allowed to not be motivated yet. Just show up. Consistency will build motivation over time. I'm on week 1 of getting back to the gym after 2 months off and it's a struggle, but I'm showing up.",
+    "text": "You have permission to start small and be inconsistent at first. Consistency is built over time, not overnight. I'm on day 7 of getting back to the gym and it's still a struggle",
     "tone": "motivational",
     "format": "micro-lesson",
     "pillar": [
@@ -18,29 +18,31 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [],
+    "hashtags": [
+      "#fitnessjourney"
+    ],
     "quality_score": 8.2,
     "quality_breakdown": {
       "clarity": 8.5,
       "originality": 7.8,
       "emotional_impact": 8,
-      "virality_potential": 8,
-      "audience_fit": 8.5
+      "virality_potential": 8.5,
+      "audience_fit": 8
     },
-    "decision_reason": "High clarity and emotional impact"
+    "decision_reason": "Motivational tone with permission slip trigger to encourage new followers"
   },
   {
-    "text": "What's the smallest thing you can do today to move closer to your goal? For me, it's drinking one extra glass of water before my 5:30am gym session. 17 ounces to be exact.",
+    "text": "What's one thing you can do daily to build consistency? For me, it's drinking 17 ounces of water before my 5:30am gym session",
     "tone": "casual",
     "format": "question",
     "pillar": [
-      "life",
-      "consistency"
+      "consistency",
+      "life"
     ],
     "psychological_trigger": "specificity_shock",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "lack of consistency",
+      "pain_point": "lack of routine",
       "desire": "purposeful daily routine"
     },
     "goal_alignment": {
@@ -49,18 +51,18 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 7.9,
+    "quality_score": 8,
     "quality_breakdown": {
       "clarity": 8,
       "originality": 7.5,
       "emotional_impact": 7.8,
       "virality_potential": 8,
-      "audience_fit": 8
+      "audience_fit": 8.2
     },
-    "decision_reason": "Engaging question with specific example"
+    "decision_reason": "Casual tone with specificity shock trigger to encourage engagement"
   },
   {
-    "text": "3 things I've learned in the past week: showing up to the gym is harder than the workout itself, every small win counts, and inaction has real consequences on my mental health.",
+    "text": "3 things I've learned in the past week: every rep counts, inaction has real consequences, and consistency is key. The stakes are high, but so are my dreams",
     "tone": "reflective",
     "format": "list",
     "pillar": [
@@ -71,7 +73,7 @@
     "hook_template_id": null,
     "audience_fit": {
       "pain_point": "feeling stuck",
-      "desire": "proof discipline pays off"
+      "desire": "visible physical progress"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -84,9 +86,9 @@
       "clarity": 8.8,
       "originality": 8,
       "emotional_impact": 8.5,
-      "virality_potential": 8.2,
+      "virality_potential": 8.8,
       "audience_fit": 8.5
     },
-    "decision_reason": "High emotional impact and clarity"
+    "decision_reason": "Reflective tone with stakes escalation trigger to encourage reflection"
   }
 ]
