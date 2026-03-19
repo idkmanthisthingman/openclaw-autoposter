@@ -13,38 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "2 months off gym and I'm back. My first workout was brutal. But the feeling of pushing through is what gets me going. Consistency is key, even when it's hard.",
-        "tone": "motivational",
-        "format": "micro-story",
-        "pillar": [
-          "gym",
-          "discipline"
-        ],
-        "trigger": "relatability_gap",
-        "posted_at": "2026-03-14T12:07:44.340Z"
-      },
-      {
-        "text": "Discipline isn't about being perfect, it's about being persistent. Even when no one is watching, you're still accountable to yourself.",
-        "tone": "empathetic",
-        "format": "quote-style",
-        "pillar": [
-          "discipline"
-        ],
-        "trigger": "reframe",
-        "posted_at": "2026-03-14T12:07:44.340Z"
-      },
-      {
-        "text": "It's okay to not have it all together. You can start building consistency even when life is chaotic. I'm still trying to fix my sleep schedule, but every small win counts.",
-        "tone": "motivational",
-        "format": "micro-lesson",
-        "pillar": [
-          "motivation",
-          "consistency"
-        ],
-        "trigger": "permission_slip",
-        "posted_at": "2026-03-14T12:12:44.295Z"
-      },
-      {
         "text": "What's the smallest habit you can build today that'll move you closer to your goal? For me, it's a 10-minute morning routine. What's yours?",
         "tone": "casual",
         "format": "question",
@@ -570,16 +538,43 @@
         ],
         "trigger": "social_proof_inverse",
         "posted_at": "2026-03-18T16:45:25.747Z"
+      },
+      {
+        "text": "You call yourself a gym rat but can't even show up consistently. Time to reevaluate your identity and your excuses.",
+        "tone": "tough-love",
+        "format": "micro-lesson",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "identity_threat",
+        "posted_at": "2026-03-19T05:38:20.478Z"
+      },
+      {
+        "text": "Woke up at 5:30am, struggled to get out of bed, but made it to the gym. Nobody talks about the daily battles, just the end results.",
+        "tone": "empathetic",
+        "format": "micro-story",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "relatability_gap",
+        "posted_at": "2026-03-19T05:38:20.478Z"
+      },
+      {
+        "text": "Growth doesn't happen in the gym, it happens in the moments you want to quit but don't.",
+        "tone": "motivational",
+        "format": "quote-style",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "reframe",
+        "posted_at": "2026-03-19T05:38:20.478Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "motivation",
-      "consistency",
-      "life",
-      "consistency",
-      "motivation",
-      "life",
       "sacrifice",
       "pain",
       "dreams",
@@ -603,12 +598,15 @@
       "dreams",
       "sacrifice",
       "pain",
-      "dreams"
+      "dreams",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym"
     ],
     "recent_triggers_used": [
-      "specificity_shock",
-      "stakes_escalation",
-      "pattern_interrupt",
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
@@ -625,19 +623,22 @@
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
-      "social_proof_inverse"
+      "social_proof_inverse",
+      "identity_threat",
+      "relatability_gap",
+      "reframe"
     ],
     "tone_distribution_7d": {
-      "tough-love": 8,
-      "motivational": 13,
-      "empathetic": 14,
+      "tough-love": 9,
+      "motivational": 14,
+      "empathetic": 15,
       "casual": 5,
       "reflective": 11
     },
     "format_distribution_7d": {
-      "micro-lesson": 13,
-      "micro-story": 14,
-      "quote-style": 8,
+      "micro-lesson": 14,
+      "micro-story": 15,
+      "quote-style": 9,
       "question": 5,
       "list": 5,
       "progress-log": 6
@@ -651,7 +652,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-18T16:45:23.840Z"
+    "last_analyzed_at": "2026-03-19T05:38:18.062Z"
   },
   "content_library": {
     "proven_hooks": [],
@@ -695,7 +696,7 @@
     "retweeted_tweet_ids": [],
     "replied_tweet_ids": [],
     "daily": {
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "follows": 0,
       "likes": 0,
       "retweets": 0,

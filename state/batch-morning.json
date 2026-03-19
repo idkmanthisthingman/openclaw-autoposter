@@ -1,6 +1,6 @@
 [
   {
-    "text": "You're not lazy, you're just not willing to be uncomfortable yet. Discipline is built in the gym, but it starts in your mind.",
+    "text": "You call yourself a gym rat but can't even show up consistently. Time to reevaluate your identity and your excuses.",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -10,7 +10,7 @@
     "psychological_trigger": "identity_threat",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "feeling stuck",
+      "pain_point": "inconsistency",
       "desire": "visible physical progress"
     },
     "goal_alignment": {
@@ -19,19 +19,19 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.2,
+    "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.8
+      "clarity": 9,
+      "originality": 8,
+      "emotional_impact": 9,
+      "virality_potential": 8,
+      "audience_fit": 8.5
     },
-    "decision_reason": "Directly challenges the audience's self-perception"
+    "decision_reason": "Directly challenges the audience's self-identity"
   },
   {
-    "text": "I've been back at the gym for a week and it's been a struggle. But every rep, every set, is a reminder that I'm capable of more than I thought.",
-    "tone": "motivational",
+    "text": "Woke up at 5:30am, struggled to get out of bed, but made it to the gym. Nobody talks about the daily battles, just the end results.",
+    "tone": "empathetic",
     "format": "micro-story",
     "pillar": [
       "discipline",
@@ -40,8 +40,8 @@
     "psychological_trigger": "relatability_gap",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "losing consistency",
-      "desire": "purposeful daily routine"
+      "pain_point": "struggling to start",
+      "desire": "belonging to a group that gets it"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -51,17 +51,17 @@
     "hashtags": [],
     "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.7,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.7
+      "clarity": 8.5,
+      "originality": 7.5,
+      "emotional_impact": 8.5,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "Shares a personal struggle to create a connection with the audience"
+    "decision_reason": "Shares a personal struggle to create empathy"
   },
   {
-    "text": "Discipline is not about being perfect, it's about being consistent. 'You don't have to be great to start, but you have to start to be great' applies to every gym session.",
-    "tone": "empathetic",
+    "text": "Growth doesn't happen in the gym, it happens in the moments you want to quit but don't.",
+    "tone": "motivational",
     "format": "quote-style",
     "pillar": [
       "discipline",
@@ -70,7 +70,7 @@
     "psychological_trigger": "reframe",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "comparing to others",
+      "pain_point": "feeling stuck",
       "desire": "proof discipline pays off"
     },
     "goal_alignment": {
@@ -81,12 +81,12 @@
     "hashtags": [],
     "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.9,
-      "audience_fit": 0.8
+      "clarity": 9,
+      "originality": 8,
+      "emotional_impact": 9,
+      "virality_potential": 8.5,
+      "audience_fit": 8
     },
-    "decision_reason": "Provides a fresh perspective on discipline and consistency"
+    "decision_reason": "Offers a new perspective on growth"
   }
 ]
