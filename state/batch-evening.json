@@ -1,50 +1,16 @@
 [
   {
-    "text": "Woke up at 5:30am, hit the gym after 2 months off. The pain is suffocating, but my dreams are louder. Sacrificing comfort for progress, one rep at a time.",
+    "text": "I used to think sacrifice was about giving up things I loved. But it's about giving up comfort for a glimpse of my dreams. Been back at the gym for a week and it's a struggle, but every rep counts",
     "tone": "reflective",
     "format": "micro-story",
     "pillar": [
       "sacrifice",
-      "pain",
       "dreams"
     ],
     "psychological_trigger": "pattern_interrupt",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "feeling stuck",
-      "desire": "visible physical progress"
-    },
-    "goal_alignment": {
-      "stage": "cold",
-      "objective": "follower_growth"
-    },
-    "arc_phase": "beginning",
-    "hashtags": [
-      "#fitnessjourney"
-    ],
-    "quality_score": 8.2,
-    "quality_breakdown": {
-      "clarity": 0.8,
-      "originality": 0.7,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.9
-    },
-    "decision_reason": "Meets all requirements, high quality score"
-  },
-  {
-    "text": "I see people posting their fitness journeys, but what about the struggles? The 5:30am wake-up calls, the sore muscles, the self-doubt? That's the real story.",
-    "tone": "empathetic",
-    "format": "progress-log",
-    "pillar": [
-      "sacrifice",
-      "pain",
-      "dreams"
-    ],
-    "psychological_trigger": "social_proof_inverse",
-    "hook_template_id": null,
-    "audience_fit": {
-      "pain_point": "feeling stuck",
+      "pain_point": "struggling to start",
       "desire": "visible physical progress"
     },
     "goal_alignment": {
@@ -53,14 +19,44 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.5,
+    "quality_score": 7.8,
+    "quality_breakdown": {
+      "clarity": 0.8,
+      "originality": 0.7,
+      "emotional_impact": 0.8,
+      "virality_potential": 0.6,
+      "audience_fit": 0.9
+    },
+    "decision_reason": "meets quality threshold and aligns with audience fit"
+  },
+  {
+    "text": "It's okay to struggle. I've been waking up at 5:30am for a week and I still want to quit. But I know the pain is temporary and my dreams are worth it. You're not alone in this",
+    "tone": "empathetic",
+    "format": "progress-log",
+    "pillar": [
+      "pain",
+      "dreams"
+    ],
+    "psychological_trigger": "social_proof_inverse",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "feeling stuck",
+      "desire": "being someone people notice changed"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [],
+    "quality_score": 8.1,
     "quality_breakdown": {
       "clarity": 0.9,
       "originality": 0.8,
       "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.9
+      "virality_potential": 0.7,
+      "audience_fit": 0.8
     },
-    "decision_reason": "Meets all requirements, high quality score"
+    "decision_reason": "meets quality threshold and provides empathy"
   }
 ]

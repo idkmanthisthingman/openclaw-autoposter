@@ -13,28 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "First day back at the gym was tough, but the worst part was knowing I had to do it again tomorrow. And the next day. That's where discipline kicks in. Still trying to get back into my routine.",
-        "tone": "motivational",
-        "format": "micro-story",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "relatability_gap",
-        "posted_at": "2026-03-14T12:17:49.044Z"
-      },
-      {
-        "text": "Discipline is not about achieving perfection, it's about progressing despite imperfection. Every rep, every set, every sweat drop counts.",
-        "tone": "empathetic",
-        "format": "quote-style",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "reframe",
-        "posted_at": "2026-03-14T12:17:49.044Z"
-      },
-      {
         "text": "Your lack of discipline isn't because you're busy, it's because you're not prioritizing. I've been trying to get back into my gym routine after 2 months off and it's a constant struggle. #discipline",
         "tone": "tough-love",
         "format": "micro-lesson",
@@ -571,16 +549,34 @@
         ],
         "trigger": "stakes_escalation",
         "posted_at": "2026-03-19T10:03:37.718Z"
+      },
+      {
+        "text": "I used to think sacrifice was about giving up things I loved. But it's about giving up comfort for a glimpse of my dreams. Been back at the gym for a week and it's a struggle, but every rep counts",
+        "tone": "reflective",
+        "format": "micro-story",
+        "pillar": [
+          "sacrifice",
+          "dreams"
+        ],
+        "trigger": "pattern_interrupt",
+        "posted_at": "2026-03-19T16:13:04.428Z"
+      },
+      {
+        "text": "It's okay to struggle. I've been waking up at 5:30am for a week and I still want to quit. But I know the pain is temporary and my dreams are worth it. You're not alone in this",
+        "tone": "empathetic",
+        "format": "progress-log",
+        "pillar": [
+          "pain",
+          "dreams"
+        ],
+        "trigger": "social_proof_inverse",
+        "posted_at": "2026-03-19T16:13:04.428Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
       "discipline",
       "gym",
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
       "motivation",
       "consistency",
       "consistency",
@@ -604,11 +600,13 @@
       "life",
       "consistency",
       "motivation",
-      "life"
+      "life",
+      "sacrifice",
+      "dreams",
+      "pain",
+      "dreams"
     ],
     "recent_triggers_used": [
-      "reframe",
-      "permission_slip",
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
@@ -626,22 +624,24 @@
       "reframe",
       "permission_slip",
       "specificity_shock",
-      "stakes_escalation"
+      "stakes_escalation",
+      "pattern_interrupt",
+      "social_proof_inverse"
     ],
     "tone_distribution_7d": {
       "tough-love": 9,
       "motivational": 15,
-      "empathetic": 15,
+      "empathetic": 16,
       "casual": 6,
-      "reflective": 12
+      "reflective": 13
     },
     "format_distribution_7d": {
       "micro-lesson": 15,
-      "micro-story": 15,
+      "micro-story": 16,
       "quote-style": 9,
       "question": 6,
       "list": 6,
-      "progress-log": 6
+      "progress-log": 7
     }
   },
   "performance": {
@@ -652,7 +652,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-19T10:03:35.492Z"
+    "last_analyzed_at": "2026-03-19T16:13:02.596Z"
   },
   "content_library": {
     "proven_hooks": [],
