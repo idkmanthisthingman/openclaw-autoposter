@@ -1,6 +1,6 @@
 [
   {
-    "text": "I used to think sacrifice was about giving up things I loved. But it's about giving up comfort for a glimpse of my dreams. Been back at the gym for a week and it's a struggle, but every rep counts",
+    "text": "I stumbled upon an old gym pic and it hit me: I've been making excuses for months. Back to the grind, literally. Sacrifice isn't easy, but it's necessary for my dreams",
     "tone": "reflective",
     "format": "micro-story",
     "pillar": [
@@ -10,7 +10,7 @@
     "psychological_trigger": "pattern_interrupt",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "struggling to start",
+      "pain_point": "feeling stuck",
       "desire": "visible physical progress"
     },
     "goal_alignment": {
@@ -18,30 +18,32 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [],
-    "quality_score": 7.8,
+    "hashtags": [
+      "#fitness"
+    ],
+    "quality_score": 8.2,
     "quality_breakdown": {
-      "clarity": 0.8,
-      "originality": 0.7,
-      "emotional_impact": 0.8,
-      "virality_potential": 0.6,
-      "audience_fit": 0.9
+      "clarity": 8.5,
+      "originality": 7.8,
+      "emotional_impact": 8,
+      "virality_potential": 8.5,
+      "audience_fit": 8
     },
-    "decision_reason": "meets quality threshold and aligns with audience fit"
+    "decision_reason": "Meets pillars and tone requirements, uses pattern_interrupt trigger"
   },
   {
-    "text": "It's okay to struggle. I've been waking up at 5:30am for a week and I still want to quit. But I know the pain is temporary and my dreams are worth it. You're not alone in this",
+    "text": "Progress log: 5:30am wake-ups for a week, back at the gym after 2 months off. It hurts, but I'm not alone. Most people who succeed aren't the most talented, they're just consistent",
     "tone": "empathetic",
     "format": "progress-log",
     "pillar": [
       "pain",
-      "dreams"
+      "sacrifice"
     ],
     "psychological_trigger": "social_proof_inverse",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "feeling stuck",
-      "desire": "being someone people notice changed"
+      "pain_point": "losing consistency",
+      "desire": "purposeful daily routine"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -49,14 +51,14 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.1,
+    "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.7,
-      "audience_fit": 0.8
+      "clarity": 8,
+      "originality": 7.5,
+      "emotional_impact": 8.5,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "meets quality threshold and provides empathy"
+    "decision_reason": "Meets pillars and tone requirements, uses social_proof_inverse trigger"
   }
 ]

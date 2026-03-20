@@ -13,28 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "Worst part of getting back to the gym? It's not the pain, it's the sacrifice of my mornings. Woke up at 5:30, still trying to fix my sleep schedule. #gym",
-        "tone": "reflective",
-        "format": "micro-story",
-        "pillar": [
-          "sacrifice",
-          "pain"
-        ],
-        "trigger": "pattern_interrupt",
-        "posted_at": "2026-03-14T14:32:24.813Z"
-      },
-      {
-        "text": "You're not alone in this struggle. I see people posting their gym progress, but nobody talks about the days they don't want to show up. That's the real sacrifice. Keep going, even when it hurts.",
-        "tone": "empathetic",
-        "format": "progress-log",
-        "pillar": [
-          "sacrifice",
-          "dreams"
-        ],
-        "trigger": "social_proof_inverse",
-        "posted_at": "2026-03-14T14:32:24.813Z"
-      },
-      {
         "text": "Started with 3 days of gym and sacrificed my morning sleep. Now I'm struggling to wake up at 5:30. The pain is real, but so is the dream of getting back on track.",
         "tone": "reflective",
         "format": "micro-story",
@@ -571,14 +549,32 @@
         ],
         "trigger": "stakes_escalation",
         "posted_at": "2026-03-20T09:27:54.627Z"
+      },
+      {
+        "text": "I stumbled upon an old gym pic and it hit me: I've been making excuses for months. Back to the grind, literally. Sacrifice isn't easy, but it's necessary for my dreams",
+        "tone": "reflective",
+        "format": "micro-story",
+        "pillar": [
+          "sacrifice",
+          "dreams"
+        ],
+        "trigger": "pattern_interrupt",
+        "posted_at": "2026-03-20T15:31:24.832Z"
+      },
+      {
+        "text": "Progress log: 5:30am wake-ups for a week, back at the gym after 2 months off. It hurts, but I'm not alone. Most people who succeed aren't the most talented, they're just consistent",
+        "tone": "empathetic",
+        "format": "progress-log",
+        "pillar": [
+          "pain",
+          "sacrifice"
+        ],
+        "trigger": "social_proof_inverse",
+        "posted_at": "2026-03-20T15:31:24.832Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "pain",
-      "dreams",
-      "discipline",
-      "gym",
       "discipline",
       "gym",
       "discipline",
@@ -604,11 +600,13 @@
       "consistency",
       "life",
       "motivation",
-      "consistency"
+      "consistency",
+      "sacrifice",
+      "dreams",
+      "pain",
+      "sacrifice"
     ],
     "recent_triggers_used": [
-      "reframe",
-      "permission_slip",
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
@@ -626,22 +624,24 @@
       "reframe",
       "permission_slip",
       "specificity_shock",
-      "stakes_escalation"
+      "stakes_escalation",
+      "pattern_interrupt",
+      "social_proof_inverse"
     ],
     "tone_distribution_7d": {
       "tough-love": 10,
       "motivational": 17,
-      "empathetic": 17,
+      "empathetic": 18,
       "casual": 7,
-      "reflective": 14
+      "reflective": 15
     },
     "format_distribution_7d": {
       "micro-lesson": 17,
-      "micro-story": 17,
+      "micro-story": 18,
       "quote-style": 10,
       "question": 7,
       "list": 7,
-      "progress-log": 7
+      "progress-log": 8
     }
   },
   "performance": {
@@ -652,7 +652,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-20T09:27:52.464Z"
+    "last_analyzed_at": "2026-03-20T15:31:23.012Z"
   },
   "content_library": {
     "proven_hooks": [],
