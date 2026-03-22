@@ -13,28 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "I'm on day 5 of waking up at 5:30am to get back to the gym. The first 3 days I hit the snooze button 5 times. Today I hit it twice. Progress, right? What's your current struggle?",
-        "tone": "casual",
-        "format": "question",
-        "pillar": [
-          "life",
-          "consistency"
-        ],
-        "trigger": "specificity_shock",
-        "posted_at": "2026-03-16T10:40:09.177Z"
-      },
-      {
-        "text": "3 things I'm focusing on to get my life back on track: showing up to the gym consistently, fixing my sleep schedule, and not comparing myself to others. The stakes are my own growth and sanity.",
-        "tone": "reflective",
-        "format": "list",
-        "pillar": [
-          "motivation",
-          "life"
-        ],
-        "trigger": "stakes_escalation",
-        "posted_at": "2026-03-16T10:40:09.177Z"
-      },
-      {
         "text": "Day 7 back at the gym. Still waking up at 5:30am, still hating it. But the pain is becoming familiar, a reminder I'm working towards my dreams. Sacrifice isn't easy, but it's necessary.",
         "tone": "reflective",
         "format": "micro-story",
@@ -569,16 +547,34 @@
         ],
         "trigger": "stakes_escalation",
         "posted_at": "2026-03-22T08:02:21.965Z"
+      },
+      {
+        "text": "I've been back at the gym for a week now, and it's funny how quickly my body adapted to the pain. But what's harder to adapt to is the mental sacrifice of waking up at 5:30am every day. My dreams of being consistent are slowly becoming a reality",
+        "tone": "reflective",
+        "format": "micro-story",
+        "pillar": [
+          "sacrifice",
+          "pain",
+          "dreams"
+        ],
+        "trigger": "pattern_interrupt",
+        "posted_at": "2026-03-22T14:49:55.767Z"
+      },
+      {
+        "text": "Progress log: 1 week back at the gym, and I'm still figuring out my sleep schedule. It's not easy, but I know I'm not alone in this struggle. The sacrifice of waking up early is worth it for my dreams, even when it feels like the pain is too much",
+        "tone": "empathetic",
+        "format": "progress-log",
+        "pillar": [
+          "sacrifice",
+          "pain",
+          "dreams"
+        ],
+        "trigger": "social_proof_inverse",
+        "posted_at": "2026-03-22T14:49:55.767Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
       "motivation",
       "consistency",
       "consistency",
@@ -602,11 +598,15 @@
       "consistency",
       "life",
       "motivation",
-      "life"
+      "life",
+      "sacrifice",
+      "pain",
+      "dreams",
+      "sacrifice",
+      "pain",
+      "dreams"
     ],
     "recent_triggers_used": [
-      "reframe",
-      "permission_slip",
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
@@ -624,22 +624,24 @@
       "reframe",
       "permission_slip",
       "specificity_shock",
-      "stakes_escalation"
+      "stakes_escalation",
+      "pattern_interrupt",
+      "social_proof_inverse"
     ],
     "tone_distribution_7d": {
       "tough-love": 12,
       "motivational": 21,
-      "empathetic": 21,
+      "empathetic": 22,
       "casual": 9,
-      "reflective": 18
+      "reflective": 19
     },
     "format_distribution_7d": {
       "micro-lesson": 21,
-      "micro-story": 21,
+      "micro-story": 22,
       "quote-style": 12,
       "question": 9,
       "list": 9,
-      "progress-log": 9
+      "progress-log": 10
     }
   },
   "performance": {
@@ -650,7 +652,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-22T08:02:19.756Z"
+    "last_analyzed_at": "2026-03-22T14:49:54.032Z"
   },
   "content_library": {
     "proven_hooks": [],

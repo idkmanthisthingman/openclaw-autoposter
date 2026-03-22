@@ -1,6 +1,6 @@
 [
   {
-    "text": "I woke up at 5:30am, hit the gym, and felt like I was dying. But it's these small sacrifices that remind me why I started. My dreams are worth the pain.",
+    "text": "I've been back at the gym for a week now, and it's funny how quickly my body adapted to the pain. But what's harder to adapt to is the mental sacrifice of waking up at 5:30am every day. My dreams of being consistent are slowly becoming a reality",
     "tone": "reflective",
     "format": "micro-story",
     "pillar": [
@@ -22,16 +22,16 @@
     "hashtags": [],
     "quality_score": 8.2,
     "quality_breakdown": {
-      "clarity": 0.8,
-      "originality": 0.7,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.9
+      "clarity": 8.5,
+      "originality": 8,
+      "emotional_impact": 8,
+      "virality_potential": 8.5,
+      "audience_fit": 8
     },
-    "decision_reason": "Meets requirements, score above threshold"
+    "decision_reason": "Meets the requirements for tone, pillar, and trigger, with a good balance of clarity and originality"
   },
   {
-    "text": "Progress log: 1 week back at the gym. What most people won't tell you is that even the most consistent ones have off days. Social media only shows the highlight reel, but the truth is, it's the daily struggles that make the difference.",
+    "text": "Progress log: 1 week back at the gym, and I'm still figuring out my sleep schedule. It's not easy, but I know I'm not alone in this struggle. The sacrifice of waking up early is worth it for my dreams, even when it feels like the pain is too much",
     "tone": "empathetic",
     "format": "progress-log",
     "pillar": [
@@ -42,8 +42,8 @@
     "psychological_trigger": "social_proof_inverse",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "comparing themselves to others",
-      "desire": "being someone people notice changed"
+      "pain_point": "losing consistency",
+      "desire": "purposeful daily routine"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -51,14 +51,14 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.5,
+    "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.8,
-      "virality_potential": 0.9,
-      "audience_fit": 0.8
+      "clarity": 8,
+      "originality": 7.5,
+      "emotional_impact": 8.5,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "Meets requirements, score above threshold, references open storyline"
+    "decision_reason": "Meets the requirements for tone, pillar, and trigger, with a good balance of emotional impact and audience fit"
   }
 ]
