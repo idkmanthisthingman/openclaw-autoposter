@@ -1,6 +1,6 @@
 [
   {
-    "text": "You call yourself a gym rat but haven't stepped foot in one for months. Time to reevaluate your priorities. Discipline isn't a hobby, it's a lifestyle",
+    "text": "If your gym routine is inconsistent, it's not because you're busy. It's because you're not making it a priority. Discipline is about choice, not circumstance.",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -8,6 +8,36 @@
       "gym"
     ],
     "psychological_trigger": "identity_threat",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "inconsistency",
+      "desire": "visible physical progress"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [],
+    "quality_score": 8.2,
+    "quality_breakdown": {
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.8
+    },
+    "decision_reason": "Directly addresses inconsistency and prioritization"
+  },
+  {
+    "text": "Went back to the gym after 2 months off. First week was brutal. But every rep, every set, is a reminder that I'm not defined by my excuses. I'm defined by my actions.",
+    "tone": "motivational",
+    "format": "micro-story",
+    "pillar": [
+      "discipline",
+      "gym"
+    ],
+    "psychological_trigger": "relatability_gap",
     "hook_template_id": null,
     "audience_fit": {
       "pain_point": "feeling stuck",
@@ -18,31 +48,29 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [
-      "discipline"
-    ],
-    "quality_score": 8.2,
+    "hashtags": [],
+    "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 8.5,
-      "originality": 7.8,
-      "emotional_impact": 8.8,
-      "virality_potential": 8,
-      "audience_fit": 8.2
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.9,
+      "audience_fit": 0.8
     },
-    "decision_reason": "high contrast between claimed identity and actual behavior"
+    "decision_reason": "References an open storyline and emphasizes action over excuses"
   },
   {
-    "text": "My first week back at the gym has been a struggle. But every rep counts. I'm not motivated, I'm just consistent. And that's what gets results",
-    "tone": "motivational",
-    "format": "micro-story",
+    "text": " Discipline isn't about being perfect. It's about being better than you were yesterday. And that's a choice you can make every day, no matter how small it seems.",
+    "tone": "empathetic",
+    "format": "quote-style",
     "pillar": [
       "discipline",
       "gym"
     ],
-    "psychological_trigger": "relatability_gap",
+    "psychological_trigger": "reframe",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "losing consistency",
+      "pain_point": "perfectionism",
       "desire": "purposeful daily routine"
     },
     "goal_alignment": {
@@ -53,44 +81,12 @@
     "hashtags": [],
     "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 8.2,
-      "originality": 7.5,
-      "emotional_impact": 8.5,
-      "virality_potential": 7.8,
-      "audience_fit": 8
+      "clarity": 0.9,
+      "originality": 0.7,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.8
     },
-    "decision_reason": "sharing a personal struggle to build connection"
-  },
-  {
-    "text": "Discipline is not about being perfect, it's about being consistent. 'The only bad workout is the one that didn't happen' and that's what I remind myself every morning at 5:30am",
-    "tone": "empathetic",
-    "format": "quote-style",
-    "pillar": [
-      "discipline",
-      "gym"
-    ],
-    "psychological_trigger": "reframe",
-    "hook_template_id": null,
-    "audience_fit": {
-      "pain_point": "comparing to others",
-      "desire": "being someone people notice changed"
-    },
-    "goal_alignment": {
-      "stage": "cold",
-      "objective": "follower_growth"
-    },
-    "arc_phase": "beginning",
-    "hashtags": [
-      "gym"
-    ],
-    "quality_score": 8.5,
-    "quality_breakdown": {
-      "clarity": 8.8,
-      "originality": 8,
-      "emotional_impact": 8.2,
-      "virality_potential": 8.5,
-      "audience_fit": 8.5
-    },
-    "decision_reason": "providing a new perspective on discipline"
+    "decision_reason": "Provides a more approachable perspective on discipline"
   }
 ]

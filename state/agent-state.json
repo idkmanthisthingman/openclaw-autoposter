@@ -13,41 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "I used to think discipline was about being perfect. Then I woke up at 5:30, hated it, and still went to the gym. Now I'm learning to embrace the sacrifice and pain for my dreams.",
-        "tone": "reflective",
-        "format": "micro-story",
-        "pillar": [
-          "sacrifice",
-          "pain",
-          "dreams"
-        ],
-        "trigger": "pattern_interrupt",
-        "posted_at": "2026-03-15T14:53:49.074Z"
-      },
-      {
-        "text": "You're not alone in struggling to get back on track. I see people posting their gym progress, but most of them don't show the days they don't want to show up. That's the real sacrifice.",
-        "tone": "empathetic",
-        "format": "progress-log",
-        "pillar": [
-          "sacrifice",
-          "pain",
-          "dreams"
-        ],
-        "trigger": "social_proof_inverse",
-        "posted_at": "2026-03-15T14:53:49.074Z"
-      },
-      {
-        "text": "Woke up at 5:30, hated it. But showed up to the gym anyway. That's what discipline looks like when you're trying to get back on track after 2 months off. Still struggling, but every rep counts.",
-        "tone": "tough-love",
-        "format": "micro-lesson",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "identity_threat",
-        "posted_at": "2026-03-16T06:08:51.231Z"
-      },
-      {
         "text": "I see people posting their fitness journeys, but most of them don't show the days they don't want to show up. I'm guilty of that too. But the truth is, every day is a struggle. And every day is a chance to build discipline.",
         "tone": "empathetic",
         "format": "micro-story",
@@ -571,16 +536,43 @@
         ],
         "trigger": "social_proof_inverse",
         "posted_at": "2026-03-21T14:49:05.691Z"
+      },
+      {
+        "text": "If your gym routine is inconsistent, it's not because you're busy. It's because you're not making it a priority. Discipline is about choice, not circumstance.",
+        "tone": "tough-love",
+        "format": "micro-lesson",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "identity_threat",
+        "posted_at": "2026-03-22T05:22:41.050Z"
+      },
+      {
+        "text": "Went back to the gym after 2 months off. First week was brutal. But every rep, every set, is a reminder that I'm not defined by my excuses. I'm defined by my actions.",
+        "tone": "motivational",
+        "format": "micro-story",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "relatability_gap",
+        "posted_at": "2026-03-22T05:22:41.050Z"
+      },
+      {
+        "text": " Discipline isn't about being perfect. It's about being better than you were yesterday. And that's a choice you can make every day, no matter how small it seems.",
+        "tone": "empathetic",
+        "format": "quote-style",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "reframe",
+        "posted_at": "2026-03-22T05:22:41.050Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "discipline",
-      "gym",
-      "motivation",
-      "life",
-      "consistency",
-      "life",
       "motivation",
       "consistency",
       "sacrifice",
@@ -604,12 +596,15 @@
       "dreams",
       "sacrifice",
       "pain",
-      "dreams"
+      "dreams",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym"
     ],
     "recent_triggers_used": [
-      "specificity_shock",
-      "stakes_escalation",
-      "pattern_interrupt",
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
@@ -626,19 +621,22 @@
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
-      "social_proof_inverse"
+      "social_proof_inverse",
+      "identity_threat",
+      "relatability_gap",
+      "reframe"
     ],
     "tone_distribution_7d": {
-      "tough-love": 11,
-      "motivational": 19,
-      "empathetic": 20,
+      "tough-love": 12,
+      "motivational": 20,
+      "empathetic": 21,
       "casual": 8,
       "reflective": 17
     },
     "format_distribution_7d": {
-      "micro-lesson": 19,
-      "micro-story": 20,
-      "quote-style": 11,
+      "micro-lesson": 20,
+      "micro-story": 21,
+      "quote-style": 12,
       "question": 8,
       "list": 8,
       "progress-log": 9
@@ -652,7 +650,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-21T14:49:04.014Z"
+    "last_analyzed_at": "2026-03-22T05:22:38.867Z"
   },
   "content_library": {
     "proven_hooks": [],
@@ -696,7 +694,7 @@
     "retweeted_tweet_ids": [],
     "replied_tweet_ids": [],
     "daily": {
-      "date": "2026-03-21",
+      "date": "2026-03-22",
       "follows": 0,
       "likes": 0,
       "retweets": 0,
