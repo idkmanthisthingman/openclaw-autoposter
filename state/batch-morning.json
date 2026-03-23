@@ -1,6 +1,6 @@
 [
   {
-    "text": "If your gym routine is inconsistent, it's not because you're busy. It's because you're not making it a priority. Discipline is about choice, not circumstance.",
+    "text": "Your excuses don't define you, your actions do. Back at the gym after 2 months off and it's a harsh reminder that discipline is a choice, not a feeling.",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -10,7 +10,7 @@
     "psychological_trigger": "identity_threat",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "inconsistency",
+      "pain_point": "feeling stuck",
       "desire": "visible physical progress"
     },
     "goal_alignment": {
@@ -27,11 +27,11 @@
       "virality_potential": 0.8,
       "audience_fit": 0.8
     },
-    "decision_reason": "Directly addresses inconsistency and prioritization"
+    "decision_reason": "Directly addresses the audience's pain point of feeling stuck and encourages action."
   },
   {
-    "text": "Went back to the gym after 2 months off. First week was brutal. But every rep, every set, is a reminder that I'm not defined by my excuses. I'm defined by my actions.",
-    "tone": "motivational",
+    "text": "1 week back at the gym and I'm still figuring it out. Some days I feel like giving up, but the truth is, consistency is what matters, not motivation.",
+    "tone": "empathetic",
     "format": "micro-story",
     "pillar": [
       "discipline",
@@ -40,8 +40,38 @@
     "psychological_trigger": "relatability_gap",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "feeling stuck",
-      "desire": "visible physical progress"
+      "pain_point": "losing consistency",
+      "desire": "purposeful daily routine"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [],
+    "quality_score": 8,
+    "quality_breakdown": {
+      "clarity": 0.9,
+      "originality": 0.7,
+      "emotional_impact": 0.8,
+      "virality_potential": 0.7,
+      "audience_fit": 0.9
+    },
+    "decision_reason": "Relatable storyline that acknowledges the struggle and emphasizes the importance of consistency."
+  },
+  {
+    "text": "Discipline isn't about being perfect, it's about being better than you were yesterday. Every rep, every set, is a step closer to your goal.",
+    "tone": "motivational",
+    "format": "quote-style",
+    "pillar": [
+      "discipline",
+      "gym"
+    ],
+    "psychological_trigger": "reframe",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "comparing to others",
+      "desire": "being someone people notice changed"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -57,36 +87,6 @@
       "virality_potential": 0.9,
       "audience_fit": 0.8
     },
-    "decision_reason": "References an open storyline and emphasizes action over excuses"
-  },
-  {
-    "text": " Discipline isn't about being perfect. It's about being better than you were yesterday. And that's a choice you can make every day, no matter how small it seems.",
-    "tone": "empathetic",
-    "format": "quote-style",
-    "pillar": [
-      "discipline",
-      "gym"
-    ],
-    "psychological_trigger": "reframe",
-    "hook_template_id": null,
-    "audience_fit": {
-      "pain_point": "perfectionism",
-      "desire": "purposeful daily routine"
-    },
-    "goal_alignment": {
-      "stage": "cold",
-      "objective": "follower_growth"
-    },
-    "arc_phase": "beginning",
-    "hashtags": [],
-    "quality_score": 8,
-    "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.7,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.8
-    },
-    "decision_reason": "Provides a more approachable perspective on discipline"
+    "decision_reason": "Inspirational message that reframes the audience's perception of discipline and progress."
   }
 ]
