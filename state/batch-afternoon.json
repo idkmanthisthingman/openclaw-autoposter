@@ -1,11 +1,11 @@
 [
   {
-    "text": "You have permission to start small and show up imperfectly. Consistency is what matters, not motivation. I'm still figuring it out, one rep at a time.",
+    "text": "You have permission to prioritize your life, even when it feels like everything else is more important. Start small, be consistent, and watch your motivation grow.",
     "tone": "motivational",
     "format": "micro-lesson",
     "pillar": [
       "motivation",
-      "consistency"
+      "life"
     ],
     "psychological_trigger": "permission_slip",
     "hook_template_id": null,
@@ -19,18 +19,18 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.2,
+    "quality_score": 7.5,
     "quality_breakdown": {
-      "clarity": 8.5,
-      "originality": 7.8,
-      "emotional_impact": 8.8,
-      "virality_potential": 7.5,
-      "audience_fit": 8
+      "clarity": 0.8,
+      "originality": 0.7,
+      "emotional_impact": 0.8,
+      "virality_potential": 0.7,
+      "audience_fit": 0.9
     },
-    "decision_reason": "Permission slip trigger aligns with the motivation pillar"
+    "decision_reason": "meets tone and trigger requirements"
   },
   {
-    "text": "What's the smallest win you can achieve daily to build momentum? For me, it's getting to the gym before 7am, even if it's just for 20 minutes.",
+    "text": "What's the smallest daily habit you can build to create momentum in your life? For me, it's showing up to the gym 15 minutes earlier each day.",
     "tone": "casual",
     "format": "question",
     "pillar": [
@@ -49,29 +49,29 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8,
+    "quality_score": 7.8,
     "quality_breakdown": {
-      "clarity": 8.2,
-      "originality": 7.5,
-      "emotional_impact": 8,
-      "virality_potential": 7.8,
-      "audience_fit": 8.2
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.7,
+      "virality_potential": 0.8,
+      "audience_fit": 0.8
     },
-    "decision_reason": "Specificity shock trigger adds credibility to the consistency pillar"
+    "decision_reason": "meets tone and trigger requirements"
   },
   {
-    "text": "3 things I've learned since trying to fix my sleep schedule: every day counts, small sacrifices add up, and inaction has real consequences. My dreams are worth the pain.",
+    "text": "3 things I've learned from trying to get back on track: every missed day adds up, small sacrifices can lead to big changes, and inaction has real consequences. My life is worth the effort.",
     "tone": "reflective",
     "format": "list",
     "pillar": [
       "motivation",
-      "life"
+      "consistency"
     ],
     "psychological_trigger": "stakes_escalation",
     "hook_template_id": null,
     "audience_fit": {
       "pain_point": "feeling stuck",
-      "desire": "visible physical progress"
+      "desire": "being someone people notice changed"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -79,14 +79,14 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.5,
+    "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 8.8,
-      "originality": 8,
-      "emotional_impact": 8.5,
-      "virality_potential": 8.2,
-      "audience_fit": 8.5
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.8,
+      "virality_potential": 0.8,
+      "audience_fit": 0.8
     },
-    "decision_reason": "Stakes escalation trigger emphasizes the importance of motivation"
+    "decision_reason": "meets tone and trigger requirements"
   }
 ]
