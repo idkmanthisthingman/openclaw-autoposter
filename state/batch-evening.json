@@ -1,6 +1,6 @@
 [
   {
-    "text": "I've been back at the gym for a week now, and it's funny how quickly my body adapted to the pain. But what's harder to adapt to is the mental sacrifice of waking up at 5:30am every day. My dreams of being consistent are slowly becoming a reality",
+    "text": "Went back to the gym after 2 months off. The pain is real, but it's a reminder that my dreams of being consistent are worth the sacrifice. Still figuring out my sleep schedule, though.",
     "tone": "reflective",
     "format": "micro-story",
     "pillar": [
@@ -22,16 +22,16 @@
     "hashtags": [],
     "quality_score": 8.2,
     "quality_breakdown": {
-      "clarity": 8.5,
-      "originality": 8,
-      "emotional_impact": 8,
-      "virality_potential": 8.5,
-      "audience_fit": 8
+      "clarity": 0.9,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.8
     },
-    "decision_reason": "Meets the requirements for tone, pillar, and trigger, with a good balance of clarity and originality"
+    "decision_reason": "Meets requirements and uses a unique trigger"
   },
   {
-    "text": "Progress log: 1 week back at the gym, and I'm still figuring out my sleep schedule. It's not easy, but I know I'm not alone in this struggle. The sacrifice of waking up early is worth it for my dreams, even when it feels like the pain is too much",
+    "text": "Progress log: 1 week back at the gym, and it's surprising how many people I see there who are just as struggling as I am. Nobody posts about the days they don't feel like showing up.",
     "tone": "empathetic",
     "format": "progress-log",
     "pillar": [
@@ -42,8 +42,8 @@
     "psychological_trigger": "social_proof_inverse",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "losing consistency",
-      "desire": "purposeful daily routine"
+      "pain_point": "feeling alone",
+      "desire": "belonging to a group that gets it"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -51,14 +51,14 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8,
+    "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 8,
-      "originality": 7.5,
-      "emotional_impact": 8.5,
-      "virality_potential": 8,
-      "audience_fit": 8
+      "clarity": 0.9,
+      "originality": 0.9,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
+      "audience_fit": 0.9
     },
-    "decision_reason": "Meets the requirements for tone, pillar, and trigger, with a good balance of emotional impact and audience fit"
+    "decision_reason": "Empathetic tone and unique trigger"
   }
 ]
