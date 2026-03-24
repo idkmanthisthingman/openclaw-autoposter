@@ -1,6 +1,6 @@
 [
   {
-    "text": "Your excuses don't define you, your actions do. Back at the gym after 2 months off and it's a harsh reminder that discipline is a choice, not a feeling.",
+    "text": "Your lack of discipline doesn't define your potential. It defines your current state. Gym progress: 1 week in, still getting used to the pain",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -24,14 +24,14 @@
       "clarity": 0.9,
       "originality": 0.8,
       "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.8
+      "virality_potential": 0.7,
+      "audience_fit": 0.9
     },
-    "decision_reason": "Directly addresses the audience's pain point of feeling stuck and encourages action."
+    "decision_reason": "Directly addresses the audience's potential for growth"
   },
   {
-    "text": "1 week back at the gym and I'm still figuring it out. Some days I feel like giving up, but the truth is, consistency is what matters, not motivation.",
-    "tone": "empathetic",
+    "text": "Woke up at 5:30am, dragged myself to the gym. It's not easy, but every rep is a reminder that I'm one step closer to my goal. Anyone else struggling to get back on track?",
+    "tone": "motivational",
     "format": "micro-story",
     "pillar": [
       "discipline",
@@ -48,20 +48,22 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [],
-    "quality_score": 8,
+    "hashtags": [
+      "fitnessjourney"
+    ],
+    "quality_score": 8.5,
     "quality_breakdown": {
       "clarity": 0.9,
-      "originality": 0.7,
-      "emotional_impact": 0.8,
-      "virality_potential": 0.7,
+      "originality": 0.8,
+      "emotional_impact": 0.9,
+      "virality_potential": 0.8,
       "audience_fit": 0.9
     },
-    "decision_reason": "Relatable storyline that acknowledges the struggle and emphasizes the importance of consistency."
+    "decision_reason": "Invites the audience to share their struggles and relate"
   },
   {
-    "text": "Discipline isn't about being perfect, it's about being better than you were yesterday. Every rep, every set, is a step closer to your goal.",
-    "tone": "motivational",
+    "text": "Discipline is not about the ability to start, it's about the willingness to continue. Even when it hurts, especially when it hurts",
+    "tone": "empathetic",
     "format": "quote-style",
     "pillar": [
       "discipline",
@@ -70,8 +72,8 @@
     "psychological_trigger": "reframe",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "comparing to others",
-      "desire": "being someone people notice changed"
+      "pain_point": "lack of motivation",
+      "desire": "proof discipline pays off"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -79,14 +81,14 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.5,
+    "quality_score": 8.8,
     "quality_breakdown": {
       "clarity": 0.9,
-      "originality": 0.8,
+      "originality": 0.9,
       "emotional_impact": 0.9,
-      "virality_potential": 0.9,
-      "audience_fit": 0.8
+      "virality_potential": 0.8,
+      "audience_fit": 0.9
     },
-    "decision_reason": "Inspirational message that reframes the audience's perception of discipline and progress."
+    "decision_reason": "Provides a fresh perspective on discipline and its challenges"
   }
 ]
