@@ -1,6 +1,6 @@
 [
   {
-    "text": "Your lack of discipline doesn't define your potential. It defines your current state. Gym progress: 1 week in, still getting used to the pain",
+    "text": "You don't get to choose when discipline becomes easy. But you can choose to start. 2 months off the gym was a wake-up call. Now I'm back, and the pain is real",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -21,59 +21,26 @@
     "hashtags": [],
     "quality_score": 8.2,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.7,
-      "audience_fit": 0.9
+      "clarity": 8,
+      "originality": 7.5,
+      "emotional_impact": 8.5,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "Directly addresses the audience's potential for growth"
+    "decision_reason": "Direct, no-nonsense approach to discipline"
   },
   {
-    "text": "Woke up at 5:30am, dragged myself to the gym. It's not easy, but every rep is a reminder that I'm one step closer to my goal. Anyone else struggling to get back on track?",
-    "tone": "motivational",
+    "text": "Struggling to get back to the gym after time off isn't a sign of failure, it's a sign you're human. Showing up again takes courage. I'm right there with you",
+    "tone": "empathetic",
     "format": "micro-story",
     "pillar": [
-      "discipline",
       "gym"
     ],
     "psychological_trigger": "relatability_gap",
     "hook_template_id": null,
     "audience_fit": {
       "pain_point": "losing consistency",
-      "desire": "purposeful daily routine"
-    },
-    "goal_alignment": {
-      "stage": "cold",
-      "objective": "follower_growth"
-    },
-    "arc_phase": "beginning",
-    "hashtags": [
-      "fitnessjourney"
-    ],
-    "quality_score": 8.5,
-    "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.9
-    },
-    "decision_reason": "Invites the audience to share their struggles and relate"
-  },
-  {
-    "text": "Discipline is not about the ability to start, it's about the willingness to continue. Even when it hurts, especially when it hurts",
-    "tone": "empathetic",
-    "format": "quote-style",
-    "pillar": [
-      "discipline",
-      "gym"
-    ],
-    "psychological_trigger": "reframe",
-    "hook_template_id": null,
-    "audience_fit": {
-      "pain_point": "lack of motivation",
-      "desire": "proof discipline pays off"
+      "desire": "belonging to a group that gets it"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -81,14 +48,43 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.8,
+    "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.9,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.9
+      "clarity": 8,
+      "originality": 7,
+      "emotional_impact": 9,
+      "virality_potential": 7.5,
+      "audience_fit": 8.5
     },
-    "decision_reason": "Provides a fresh perspective on discipline and its challenges"
+    "decision_reason": "Empathetic tone to connect with the audience's struggle"
+  },
+  {
+    "text": "Discipline isn't about being perfect, it's about being persistent. Every rep, every set, every workout is a step closer to your goal",
+    "tone": "motivational",
+    "format": "quote-style",
+    "pillar": [
+      "discipline"
+    ],
+    "psychological_trigger": "reframe",
+    "hook_template_id": null,
+    "audience_fit": {
+      "pain_point": "comparing to others",
+      "desire": "visible physical progress"
+    },
+    "goal_alignment": {
+      "stage": "cold",
+      "objective": "follower_growth"
+    },
+    "arc_phase": "beginning",
+    "hashtags": [],
+    "quality_score": 8.5,
+    "quality_breakdown": {
+      "clarity": 9,
+      "originality": 8,
+      "emotional_impact": 8,
+      "virality_potential": 8.5,
+      "audience_fit": 8
+    },
+    "decision_reason": "Reframing discipline to focus on persistence, not perfection"
   }
 ]

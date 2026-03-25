@@ -13,41 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "Woke up at 5:30am, hit the gym after 2 months off. The pain is suffocating, but my dreams are louder. Sacrificing comfort for progress, one rep at a time.",
-        "tone": "reflective",
-        "format": "micro-story",
-        "pillar": [
-          "sacrifice",
-          "pain",
-          "dreams"
-        ],
-        "trigger": "pattern_interrupt",
-        "posted_at": "2026-03-18T16:45:25.747Z"
-      },
-      {
-        "text": "I see people posting their fitness journeys, but what about the struggles? The 5:30am wake-up calls, the sore muscles, the self-doubt? That's the real story.",
-        "tone": "empathetic",
-        "format": "progress-log",
-        "pillar": [
-          "sacrifice",
-          "pain",
-          "dreams"
-        ],
-        "trigger": "social_proof_inverse",
-        "posted_at": "2026-03-18T16:45:25.747Z"
-      },
-      {
-        "text": "You call yourself a gym rat but can't even show up consistently. Time to reevaluate your identity and your excuses.",
-        "tone": "tough-love",
-        "format": "micro-lesson",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "identity_threat",
-        "posted_at": "2026-03-19T05:38:20.478Z"
-      },
-      {
         "text": "Woke up at 5:30am, struggled to get out of bed, but made it to the gym. Nobody talks about the daily battles, just the end results.",
         "tone": "empathetic",
         "format": "micro-story",
@@ -571,15 +536,42 @@
         ],
         "trigger": "social_proof_inverse",
         "posted_at": "2026-03-24T16:44:20.834Z"
+      },
+      {
+        "text": "You don't get to choose when discipline becomes easy. But you can choose to start. 2 months off the gym was a wake-up call. Now I'm back, and the pain is real",
+        "tone": "tough-love",
+        "format": "micro-lesson",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "identity_threat",
+        "posted_at": "2026-03-25T05:40:24.391Z"
+      },
+      {
+        "text": "Struggling to get back to the gym after time off isn't a sign of failure, it's a sign you're human. Showing up again takes courage. I'm right there with you",
+        "tone": "empathetic",
+        "format": "micro-story",
+        "pillar": [
+          "gym"
+        ],
+        "trigger": "relatability_gap",
+        "posted_at": "2026-03-25T05:40:24.392Z"
+      },
+      {
+        "text": "Discipline isn't about being perfect, it's about being persistent. Every rep, every set, every workout is a step closer to your goal",
+        "tone": "motivational",
+        "format": "quote-style",
+        "pillar": [
+          "discipline"
+        ],
+        "trigger": "reframe",
+        "posted_at": "2026-03-25T05:40:24.392Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
       "motivation",
-      "life",
-      "consistency",
-      "life",
-      "motivation",
       "consistency",
       "sacrifice",
       "pain",
@@ -604,12 +596,13 @@
       "dreams",
       "sacrifice",
       "pain",
-      "dreams"
+      "dreams",
+      "discipline",
+      "gym",
+      "gym",
+      "discipline"
     ],
     "recent_triggers_used": [
-      "specificity_shock",
-      "stakes_escalation",
-      "pattern_interrupt",
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
@@ -626,19 +619,22 @@
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
-      "social_proof_inverse"
+      "social_proof_inverse",
+      "identity_threat",
+      "relatability_gap",
+      "reframe"
     ],
     "tone_distribution_7d": {
-      "tough-love": 14,
-      "motivational": 25,
-      "empathetic": 26,
+      "tough-love": 15,
+      "motivational": 26,
+      "empathetic": 27,
       "casual": 11,
       "reflective": 23
     },
     "format_distribution_7d": {
-      "micro-lesson": 25,
-      "micro-story": 26,
-      "quote-style": 14,
+      "micro-lesson": 26,
+      "micro-story": 27,
+      "quote-style": 15,
       "question": 11,
       "list": 11,
       "progress-log": 12
@@ -652,7 +648,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-24T16:44:18.995Z"
+    "last_analyzed_at": "2026-03-25T05:40:22.273Z"
   },
   "content_library": {
     "proven_hooks": [],
@@ -696,7 +692,7 @@
     "retweeted_tweet_ids": [],
     "replied_tweet_ids": [],
     "daily": {
-      "date": "2026-03-24",
+      "date": "2026-03-25",
       "follows": 0,
       "likes": 0,
       "retweets": 0,
