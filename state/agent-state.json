@@ -13,39 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "Woke up at 5:30am, struggled to get out of bed, but made it to the gym. Nobody talks about the daily battles, just the end results.",
-        "tone": "empathetic",
-        "format": "micro-story",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "relatability_gap",
-        "posted_at": "2026-03-19T05:38:20.478Z"
-      },
-      {
-        "text": "Growth doesn't happen in the gym, it happens in the moments you want to quit but don't.",
-        "tone": "motivational",
-        "format": "quote-style",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "reframe",
-        "posted_at": "2026-03-19T05:38:20.478Z"
-      },
-      {
-        "text": "starting small doesn't mean you're not serious. it means you're serious about consistency. i've been back at the gym for a week and it's a struggle, but every rep counts",
-        "tone": "motivational",
-        "format": "micro-lesson",
-        "pillar": [
-          "consistency",
-          "motivation"
-        ],
-        "trigger": "permission_slip",
-        "posted_at": "2026-03-19T10:03:37.718Z"
-      },
-      {
         "text": "what's the smallest habit you can build daily to move closer to your goals? for me, it's drinking 17 ounces of water before my 5:30am gym session",
         "tone": "casual",
         "format": "question",
@@ -567,16 +534,43 @@
         ],
         "trigger": "reframe",
         "posted_at": "2026-03-25T05:40:24.392Z"
+      },
+      {
+        "text": "It's okay to not be okay. Giving yourself permission to start small is the first step to building consistency. Don't wait for motivation, create momentum #consistency",
+        "tone": "motivational",
+        "format": "micro-lesson",
+        "pillar": [
+          "motivation",
+          "consistency"
+        ],
+        "trigger": "permission_slip",
+        "posted_at": "2026-03-25T10:12:36.526Z"
+      },
+      {
+        "text": "What's the smallest habit you can build today that'll bring you closer to your goal? For me, it's showing up at the gym even when I don't feel like it",
+        "tone": "casual",
+        "format": "question",
+        "pillar": [
+          "life",
+          "consistency"
+        ],
+        "trigger": "specificity_shock",
+        "posted_at": "2026-03-25T10:12:36.526Z"
+      },
+      {
+        "text": "3 things I've learned since going back to the gym: every rep counts, consistency is key, and progress is slower than you think. Still figuring out my sleep schedule, but it's a start",
+        "tone": "reflective",
+        "format": "list",
+        "pillar": [
+          "motivation",
+          "life"
+        ],
+        "trigger": "stakes_escalation",
+        "posted_at": "2026-03-25T10:12:36.526Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "motivation",
-      "consistency",
-      "sacrifice",
-      "pain",
-      "dreams",
-      "sacrifice",
       "pain",
       "dreams",
       "discipline",
@@ -600,12 +594,15 @@
       "discipline",
       "gym",
       "gym",
-      "discipline"
+      "discipline",
+      "motivation",
+      "consistency",
+      "life",
+      "consistency",
+      "motivation",
+      "life"
     ],
     "recent_triggers_used": [
-      "social_proof_inverse",
-      "identity_threat",
-      "relatability_gap",
       "reframe",
       "permission_slip",
       "specificity_shock",
@@ -622,21 +619,24 @@
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
-      "reframe"
+      "reframe",
+      "permission_slip",
+      "specificity_shock",
+      "stakes_escalation"
     ],
     "tone_distribution_7d": {
       "tough-love": 15,
-      "motivational": 26,
+      "motivational": 27,
       "empathetic": 27,
-      "casual": 11,
-      "reflective": 23
+      "casual": 12,
+      "reflective": 24
     },
     "format_distribution_7d": {
-      "micro-lesson": 26,
+      "micro-lesson": 27,
       "micro-story": 27,
       "quote-style": 15,
-      "question": 11,
-      "list": 11,
+      "question": 12,
+      "list": 12,
       "progress-log": 12
     }
   },
@@ -648,7 +648,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-25T05:40:22.273Z"
+    "last_analyzed_at": "2026-03-25T10:12:34.209Z"
   },
   "content_library": {
     "proven_hooks": [],
