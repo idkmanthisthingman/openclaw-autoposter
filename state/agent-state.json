@@ -13,39 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "I used to think sacrifice was about giving up things I loved. But it's about giving up comfort for a glimpse of my dreams. Been back at the gym for a week and it's a struggle, but every rep counts",
-        "tone": "reflective",
-        "format": "micro-story",
-        "pillar": [
-          "sacrifice",
-          "dreams"
-        ],
-        "trigger": "pattern_interrupt",
-        "posted_at": "2026-03-19T16:13:04.428Z"
-      },
-      {
-        "text": "It's okay to struggle. I've been waking up at 5:30am for a week and I still want to quit. But I know the pain is temporary and my dreams are worth it. You're not alone in this",
-        "tone": "empathetic",
-        "format": "progress-log",
-        "pillar": [
-          "pain",
-          "dreams"
-        ],
-        "trigger": "social_proof_inverse",
-        "posted_at": "2026-03-19T16:13:04.428Z"
-      },
-      {
-        "text": "You think you're a morning person but can't even get to the gym on time. Discipline isn't about being perfect, it's about being consistent. I've been back at the gym for a week and it's a struggle, but every rep counts",
-        "tone": "tough-love",
-        "format": "micro-lesson",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "identity_threat",
-        "posted_at": "2026-03-20T05:10:05.499Z"
-      },
-      {
         "text": "I woke up at 5:30am, struggled to get out of bed, but made it to the gym. That's what discipline looks like. Not the perfect workout, but the imperfect habit that gets you closer to your dreams",
         "tone": "motivational",
         "format": "micro-story",
@@ -567,16 +534,43 @@
         ],
         "trigger": "social_proof_inverse",
         "posted_at": "2026-03-25T16:50:22.029Z"
+      },
+      {
+        "text": "You're not a morning person just because you wake up at 5:30. Discipline is about showing up when you don't feel like it. Been there, still struggling to fix my sleep schedule.",
+        "tone": "tough-love",
+        "format": "micro-lesson",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "identity_threat",
+        "posted_at": "2026-03-26T05:56:50.164Z"
+      },
+      {
+        "text": "I went back to the gym after 2 months off. It's been tough, but every rep is a reminder that I'm capable of more than I thought. You can do the same, even when it feels impossible.",
+        "tone": "motivational",
+        "format": "micro-story",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "relatability_gap",
+        "posted_at": "2026-03-26T05:56:50.165Z"
+      },
+      {
+        "text": "Growth happens in the moments you don't feel like showing up. That's where discipline meets determination. Keep pushing, even when it's hard.",
+        "tone": "empathetic",
+        "format": "quote-style",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "reframe",
+        "posted_at": "2026-03-26T05:56:50.165Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
-      "motivation",
-      "consistency",
       "consistency",
       "life",
       "motivation",
@@ -600,12 +594,15 @@
       "sacrifice",
       "pain",
       "dreams",
-      "sacrifice"
+      "sacrifice",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym"
     ],
     "recent_triggers_used": [
-      "specificity_shock",
-      "stakes_escalation",
-      "pattern_interrupt",
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
@@ -622,19 +619,22 @@
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
-      "social_proof_inverse"
+      "social_proof_inverse",
+      "identity_threat",
+      "relatability_gap",
+      "reframe"
     ],
     "tone_distribution_7d": {
-      "tough-love": 15,
-      "motivational": 27,
-      "empathetic": 28,
+      "tough-love": 16,
+      "motivational": 28,
+      "empathetic": 29,
       "casual": 12,
       "reflective": 25
     },
     "format_distribution_7d": {
-      "micro-lesson": 27,
-      "micro-story": 28,
-      "quote-style": 15,
+      "micro-lesson": 28,
+      "micro-story": 29,
+      "quote-style": 16,
       "question": 12,
       "list": 12,
       "progress-log": 13
@@ -648,7 +648,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-25T16:50:20.424Z"
+    "last_analyzed_at": "2026-03-26T05:56:48.039Z"
   },
   "content_library": {
     "proven_hooks": [],
@@ -692,7 +692,7 @@
     "retweeted_tweet_ids": [],
     "replied_tweet_ids": [],
     "daily": {
-      "date": "2026-03-25",
+      "date": "2026-03-26",
       "follows": 0,
       "likes": 0,
       "retweets": 0,
