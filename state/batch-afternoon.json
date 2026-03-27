@@ -1,11 +1,11 @@
 [
   {
-    "text": "Give yourself permission to start small. It's okay to not have it all figured out. Every step, no matter how tiny, is a step closer to your goal. I'm still trying to fix my sleep schedule, but I'm showing up",
+    "text": "You don't need to be motivated to start. You just need to give yourself permission to begin. Every small step counts, even when it feels like nothing is happening. #motivation",
     "tone": "motivational",
     "format": "micro-lesson",
     "pillar": [
       "motivation",
-      "life"
+      "consistency"
     ],
     "psychological_trigger": "permission_slip",
     "hook_template_id": null,
@@ -18,29 +18,31 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [],
-    "quality_score": 8,
+    "hashtags": [
+      "motivation"
+    ],
+    "quality_score": 8.2,
     "quality_breakdown": {
       "clarity": 0.9,
-      "originality": 0.7,
+      "originality": 0.8,
       "emotional_impact": 0.8,
       "virality_potential": 0.7,
       "audience_fit": 0.9
     },
-    "decision_reason": "permission_slip trigger aligns with audience pain point"
+    "decision_reason": "Aligns with the goal of follower growth and addresses the pain point of feeling stuck."
   },
   {
-    "text": "What's one thing you can do today to build consistency? For me, it's making sure I'm at the gym, even if it's just for 20 minutes. Every bit counts, right?",
+    "text": "What's the smallest habit you can build today to create consistency in your life? For me, it's drinking a full glass of water as soon as I wake up. #consistency",
     "tone": "casual",
     "format": "question",
     "pillar": [
       "consistency",
-      "life"
+      "motivation"
     ],
     "psychological_trigger": "specificity_shock",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "losing consistency after 2-3 weeks",
+      "pain_point": "struggling with consistency",
       "desire": "purposeful daily routine"
     },
     "goal_alignment": {
@@ -48,30 +50,32 @@
       "objective": "follower_growth"
     },
     "arc_phase": "beginning",
-    "hashtags": [],
-    "quality_score": 7.8,
+    "hashtags": [
+      "consistency"
+    ],
+    "quality_score": 8,
     "quality_breakdown": {
       "clarity": 0.8,
-      "originality": 0.6,
-      "emotional_impact": 0.7,
+      "originality": 0.7,
+      "emotional_impact": 0.8,
       "virality_potential": 0.8,
       "audience_fit": 0.8
     },
-    "decision_reason": "casual tone and specificity_shock trigger create a relatable scenario"
+    "decision_reason": "Encourages engagement and relates to the pillar of consistency."
   },
   {
-    "text": "3 ways inconsistency can hold you back: missed opportunities, erosion of self-discipline, and a deeper sense of regret. Don't let inconsistency dictate your life. Take control, one small step at a time",
+    "text": "3 things I've learned from trying to fix my sleep schedule: it's hard, it's worth it, and every small adjustment adds up. Don't give up on creating a better life for yourself.",
     "tone": "reflective",
     "format": "list",
     "pillar": [
-      "motivation",
+      "life",
       "consistency"
     ],
     "psychological_trigger": "stakes_escalation",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "feeling stuck watching others advance",
-      "desire": "proof discipline pays off"
+      "pain_point": "struggling with sleep schedule",
+      "desire": "being someone people notice changed"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -79,7 +83,7 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.2,
+    "quality_score": 8.5,
     "quality_breakdown": {
       "clarity": 0.9,
       "originality": 0.8,
@@ -87,6 +91,6 @@
       "virality_potential": 0.8,
       "audience_fit": 0.9
     },
-    "decision_reason": "stakes_escalation trigger emphasizes the cost of inaction"
+    "decision_reason": "References an open storyline and emphasizes the importance of persistence."
   }
 ]
