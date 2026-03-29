@@ -13,41 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "I've been back at the gym for a week now, and it's funny how quickly my body adapted to the pain. But what's harder to adapt to is the mental sacrifice of waking up at 5:30am every day. My dreams of being consistent are slowly becoming a reality",
-        "tone": "reflective",
-        "format": "micro-story",
-        "pillar": [
-          "sacrifice",
-          "pain",
-          "dreams"
-        ],
-        "trigger": "pattern_interrupt",
-        "posted_at": "2026-03-22T14:49:55.767Z"
-      },
-      {
-        "text": "Progress log: 1 week back at the gym, and I'm still figuring out my sleep schedule. It's not easy, but I know I'm not alone in this struggle. The sacrifice of waking up early is worth it for my dreams, even when it feels like the pain is too much",
-        "tone": "empathetic",
-        "format": "progress-log",
-        "pillar": [
-          "sacrifice",
-          "pain",
-          "dreams"
-        ],
-        "trigger": "social_proof_inverse",
-        "posted_at": "2026-03-22T14:49:55.767Z"
-      },
-      {
-        "text": "Your excuses don't define you, your actions do. Back at the gym after 2 months off and it's a harsh reminder that discipline is a choice, not a feeling.",
-        "tone": "tough-love",
-        "format": "micro-lesson",
-        "pillar": [
-          "discipline",
-          "gym"
-        ],
-        "trigger": "identity_threat",
-        "posted_at": "2026-03-23T05:53:29.720Z"
-      },
-      {
         "text": "1 week back at the gym and I'm still figuring it out. Some days I feel like giving up, but the truth is, consistency is what matters, not motivation.",
         "tone": "empathetic",
         "format": "micro-story",
@@ -569,16 +534,43 @@
         ],
         "trigger": "social_proof_inverse",
         "posted_at": "2026-03-28T14:58:19.222Z"
+      },
+      {
+        "text": "You call yourself a gym person but can't show up for 2 months? Time to reevaluate your identity. Every rep is a chance to rebuild.",
+        "tone": "tough-love",
+        "format": "micro-lesson",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "identity_threat",
+        "posted_at": "2026-03-29T05:57:46.935Z"
+      },
+      {
+        "text": "First week back at the gym and I'm reminded why I started. The pain is real, but so is the progress. Keep moving forward.",
+        "tone": "motivational",
+        "format": "micro-story",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "relatability_gap",
+        "posted_at": "2026-03-29T05:57:46.935Z"
+      },
+      {
+        "text": "Growth doesn't happen in the gym, it happens in the moments you want to quit but don't.",
+        "tone": "empathetic",
+        "format": "quote-style",
+        "pillar": [
+          "discipline",
+          "gym"
+        ],
+        "trigger": "reframe",
+        "posted_at": "2026-03-29T05:57:46.935Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "motivation",
-      "consistency",
-      "consistency",
-      "motivation",
-      "life",
-      "consistency",
       "sacrifice",
       "pain",
       "dreams",
@@ -602,12 +594,15 @@
       "dreams",
       "sacrifice",
       "pain",
-      "dreams"
+      "dreams",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym",
+      "discipline",
+      "gym"
     ],
     "recent_triggers_used": [
-      "specificity_shock",
-      "stakes_escalation",
-      "pattern_interrupt",
       "social_proof_inverse",
       "identity_threat",
       "relatability_gap",
@@ -624,19 +619,22 @@
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
-      "social_proof_inverse"
+      "social_proof_inverse",
+      "identity_threat",
+      "relatability_gap",
+      "reframe"
     ],
     "tone_distribution_7d": {
-      "tough-love": 18,
-      "motivational": 33,
-      "empathetic": 34,
+      "tough-love": 19,
+      "motivational": 34,
+      "empathetic": 35,
       "casual": 15,
       "reflective": 31
     },
     "format_distribution_7d": {
-      "micro-lesson": 33,
-      "micro-story": 34,
-      "quote-style": 18,
+      "micro-lesson": 34,
+      "micro-story": 35,
+      "quote-style": 19,
       "question": 15,
       "list": 15,
       "progress-log": 16
@@ -650,7 +648,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-28T14:58:17.465Z"
+    "last_analyzed_at": "2026-03-29T05:57:44.664Z"
   },
   "content_library": {
     "proven_hooks": [],
@@ -694,7 +692,7 @@
     "retweeted_tweet_ids": [],
     "replied_tweet_ids": [],
     "daily": {
-      "date": "2026-03-28",
+      "date": "2026-03-29",
       "follows": 0,
       "likes": 0,
       "retweets": 0,

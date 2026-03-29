@@ -1,6 +1,6 @@
 [
   {
-    "text": "You think you're a gym person? Prove it. Show up when you don't feel like it. That's where growth happens.",
+    "text": "You call yourself a gym person but can't show up for 2 months? Time to reevaluate your identity. Every rep is a chance to rebuild.",
     "tone": "tough-love",
     "format": "micro-lesson",
     "pillar": [
@@ -19,18 +19,18 @@
     },
     "arc_phase": "beginning",
     "hashtags": [],
-    "quality_score": 8.2,
+    "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.8,
-      "audience_fit": 0.8
+      "clarity": 8,
+      "originality": 8,
+      "emotional_impact": 9,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "Direct challenge to the audience's self-identity"
+    "decision_reason": "High contrast between claimed identity and actual behavior sparks reflection."
   },
   {
-    "text": "First day back at the gym after 2 months off. It hurts, but every rep is a reminder I'm capable of more. Still working on fixing my sleep schedule, though.",
+    "text": "First week back at the gym and I'm reminded why I started. The pain is real, but so is the progress. Keep moving forward.",
     "tone": "motivational",
     "format": "micro-story",
     "pillar": [
@@ -51,16 +51,16 @@
     "hashtags": [],
     "quality_score": 8,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.7,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.7,
-      "audience_fit": 0.8
+      "clarity": 8,
+      "originality": 7,
+      "emotional_impact": 8,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "Relatable personal struggle and progress"
+    "decision_reason": "Sharing personal struggles and progress fosters a sense of community and motivation."
   },
   {
-    "text": "Growth is not about being perfect, it's about being consistent. Every rep, every sweat drop, is a step closer to your goal.",
+    "text": "Growth doesn't happen in the gym, it happens in the moments you want to quit but don't.",
     "tone": "empathetic",
     "format": "quote-style",
     "pillar": [
@@ -70,8 +70,8 @@
     "psychological_trigger": "reframe",
     "hook_template_id": null,
     "audience_fit": {
-      "pain_point": "feeling stuck",
-      "desire": "visible physical progress"
+      "pain_point": "knowing what to do but not doing it",
+      "desire": "being someone people notice changed"
     },
     "goal_alignment": {
       "stage": "cold",
@@ -81,12 +81,12 @@
     "hashtags": [],
     "quality_score": 8.5,
     "quality_breakdown": {
-      "clarity": 0.9,
-      "originality": 0.8,
-      "emotional_impact": 0.9,
-      "virality_potential": 0.9,
-      "audience_fit": 0.9
+      "clarity": 9,
+      "originality": 8,
+      "emotional_impact": 8,
+      "virality_potential": 8,
+      "audience_fit": 8
     },
-    "decision_reason": "Empathetic and encouraging message"
+    "decision_reason": "Reframing the source of growth highlights the importance of discipline in everyday moments."
   }
 ]
