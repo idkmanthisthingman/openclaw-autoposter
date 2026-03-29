@@ -13,28 +13,6 @@
   "content": {
     "recent_posts": [
       {
-        "text": "What's the smallest daily habit you can build to create momentum in your life? For me, it's showing up to the gym 15 minutes earlier each day.",
-        "tone": "casual",
-        "format": "question",
-        "pillar": [
-          "consistency",
-          "life"
-        ],
-        "trigger": "specificity_shock",
-        "posted_at": "2026-03-23T10:37:22.159Z"
-      },
-      {
-        "text": "3 things I've learned from trying to get back on track: every missed day adds up, small sacrifices can lead to big changes, and inaction has real consequences. My life is worth the effort.",
-        "tone": "reflective",
-        "format": "list",
-        "pillar": [
-          "motivation",
-          "consistency"
-        ],
-        "trigger": "stakes_escalation",
-        "posted_at": "2026-03-23T10:37:22.159Z"
-      },
-      {
         "text": "Went back to the gym after 2 months off. The pain is real, but it's a reminder that my dreams of being consistent are worth the sacrifice. Still figuring out my sleep schedule, though.",
         "tone": "reflective",
         "format": "micro-story",
@@ -567,16 +545,34 @@
         ],
         "trigger": "stakes_escalation",
         "posted_at": "2026-03-29T09:08:59.004Z"
+      },
+      {
+        "text": "I stopped going to the gym for 2 months. Now I'm back and it hurts. But I'm not just fighting for a better body, I'm fighting for the discipline to chase my dreams, no matter the pain or sacrifice.",
+        "tone": "reflective",
+        "format": "micro-story",
+        "pillar": [
+          "sacrifice",
+          "pain",
+          "dreams"
+        ],
+        "trigger": "pattern_interrupt",
+        "posted_at": "2026-03-29T15:03:43.170Z"
+      },
+      {
+        "text": "It's okay to struggle with getting back on track. I'm right there with you, trying to fix my sleep schedule and get back to the gym. Every small step towards our goals requires sacrifice, but it's worth it for the progress, no matter how slow.",
+        "tone": "empathetic",
+        "format": "progress-log",
+        "pillar": [
+          "sacrifice",
+          "pain",
+          "dreams"
+        ],
+        "trigger": "social_proof_inverse",
+        "posted_at": "2026-03-29T15:03:43.170Z"
       }
     ],
     "recent_hooks": [],
     "recent_topics": [
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
-      "discipline",
-      "gym",
       "motivation",
       "life",
       "consistency",
@@ -600,11 +596,15 @@
       "consistency",
       "life",
       "motivation",
-      "life"
+      "life",
+      "sacrifice",
+      "pain",
+      "dreams",
+      "sacrifice",
+      "pain",
+      "dreams"
     ],
     "recent_triggers_used": [
-      "reframe",
-      "permission_slip",
       "specificity_shock",
       "stakes_escalation",
       "pattern_interrupt",
@@ -622,22 +622,24 @@
       "reframe",
       "permission_slip",
       "specificity_shock",
-      "stakes_escalation"
+      "stakes_escalation",
+      "pattern_interrupt",
+      "social_proof_inverse"
     ],
     "tone_distribution_7d": {
       "tough-love": 19,
       "motivational": 35,
-      "empathetic": 35,
+      "empathetic": 36,
       "casual": 16,
-      "reflective": 32
+      "reflective": 33
     },
     "format_distribution_7d": {
       "micro-lesson": 35,
-      "micro-story": 35,
+      "micro-story": 36,
       "quote-style": 19,
       "question": 16,
       "list": 16,
-      "progress-log": 16
+      "progress-log": 17
     }
   },
   "performance": {
@@ -648,7 +650,7 @@
     "weak_patterns": [],
     "active_ab_tests": [],
     "follower_count": 0,
-    "last_analyzed_at": "2026-03-29T09:08:56.955Z"
+    "last_analyzed_at": "2026-03-29T15:03:41.566Z"
   },
   "content_library": {
     "proven_hooks": [],
